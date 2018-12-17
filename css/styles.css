@@ -1,0 +1,124 @@
+/*ubuntu regular почти везде. Roboto regulat в футере и паре мест*/
+html {
+  scroll-behavior: smooth;
+}
+header{
+  font-size: 12px;
+  height: 42px;
+}
+header p,
+.searchSection p{
+  margin-bottom: 0;
+}
+header .humanImg{
+  float: left;
+  padding-right: 8px;
+  padding-top: 10px;
+}
+header .row{
+  height: 42px;
+}
+nav{
+  height: 77px;
+}
+nav a{
+  color: #061C2E;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+nav a:hover{
+  color: #D80000;
+  text-decoration: none;
+}
+nav .active{
+  color: #D80000;
+}
+nav .row{
+  padding-top: 20px;
+}
+.headSlider .row{
+  height: 400px;
+  padding-left: 55px;
+}
+.logoMtm{
+  padding-top: 4px;
+}
+.mailImg{
+  width: 9.56px;
+  height: 7.82px;
+  margin-top: 7px;
+  margin-right: 5px;
+}
+.mobileNavPhoneNumbers{
+  color: #fff;
+}
+.phoneImg {
+  float: left;
+  padding-top: 7px;
+  padding-right: 10px;
+}
+.productCart{
+  width: 84px;
+  height: 43px;
+  border-radius: 11px;
+  background: #fff;
+}
+.productCart img{
+  width: 26px;
+  height: 21px;
+  margin: auto;
+}
+.productsNumber{
+  width: 26px;
+  height: 24px;
+  background: #D80000;
+  color: #fff;
+}
+.redBtn{
+  width: 128px;
+  height: 25px;
+  border: 0;
+  border-radius: 25px;
+  background: #D80000;
+  color: #fff;
+}
+.redText{
+  color: #D80000;
+}
+.searchSection{
+  font-size: 12px;
+  height: 96px;
+  background-image: url('../img/background/blueNavBg.png');  
+}
+.searchSection .row{
+  height: 96px;
+}
+.socialImgs img{
+  width: 26.1px;
+  height: 26.1px;
+}
+#toTop {
+    width: 100px;
+    padding: 5px;
+    position: fixed;
+    bottom: 40px;
+    right: 10px;
+    cursor: pointer;
+}
+#aboutCompany{
+  background-image: url('../img/background/headSlider.png'); 
+  background-repeat: no-repeat;
+  height: 400px;
+}
+#aboutCompany p{
+  font-size: 36px;
+  font-weight: 500;
+  color: #fff;
+}
+#aboutCompany .redBtn{
+  border-radius: 10px;
+  font-size: 14px;
+  width: 130px !important;
+  height: 30px !important; 
+}
