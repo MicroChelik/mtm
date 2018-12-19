@@ -1,4 +1,4 @@
-<div class="searchSection">
+<div class="searchSection d-lg-flex d-none">
 	<div class="container">
 		<div class="row align-items-center">
 			<div class="col-lg-auto">

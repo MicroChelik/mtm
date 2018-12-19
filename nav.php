@@ -35,79 +35,76 @@
 				<a href="index.php">Интернет - магазин</a>
 			</div>
 			<div class="col-auto">
-				<a href="aboutCompanyPage.php" class="active">Главная</a>
+				<a href="index.php" class="active">Главная</a>
 			</div>
 			<div class="col-auto">
-				<a href="servicesPage.php">О компании</a>
+				<a href="aboutCompanyPage.php">О компании</a>
 			</div>
 			<div class="col-auto">
-				<a href="newsPage.php">Услуги</a>
+				<a href="servicesPage.php">Услуги</a>
 			</div>
 			<div class="col-auto">
-				<a href="q-a.php">Оплата и доставка</a>
+				<a href="paymentAndDelivery.php">Оплата и доставка</a>
 			</div>
 			<div class="col-auto">
-				<a href="commentsPage.php">Контакты</a>
+				<a href="contactsPage.php">Контакты</a>
 			</div>
 		</div>
 	</div>
 </nav>
-	<section class="mobileNav d-lg-none d-block">
-		<div class="container">
-			<div class="row justify-content-around align-items-center">
-				<div class="mobileLogo">
-					<span>Хай-<br>Тандем</span>
-				</div>
+<section class="mobileNav d-lg-none d-block">
+	<div class="container">
+		<div class="row justify-content-between align-items-center mobileNavRow">
+			<div class="col-2">
 				<button class="navbar-toggler d-lg-none d-inline-block" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-		   			<span class="navbar-toggler-icon" id="toggle"><img src="img/icons/burger.png"></span>
-			  	</button>
-			  	<div class="logInDiv">
-			  		<a data-fancybox data-animation-duration="700" data-src="#logInModal" href="javascript:;">
-			  			<img src="img/icons/logIn.png">
-			  			<span>Вход</span>
-			  		</a>
-			  	</div>
-			 	<div class="collapse navbar-collapse" id="navbarNav">
-			 		<ul class="navbar-nav">
-			 			<li class="nav-item nav-item-first">
-	 						<a class="nav-link" href="index.php"><p>Главная</p><span class="sr-only">(current)</span></a>
-	 					</li>
-	 					<li class="nav-item">
-	 						<a class="nav-link" href="aboutCompanyPage.php""><p>О компании</p></a>
-	 					</li>
-	 					<li class="nav-item">
-	 						<a class="nav-link" href="servicesPage.php"><p>Услуги</p></a>
-	 					</li>
-	 					<li class="nav-item">
-	 						<a class="nav-link" href="newsPage.php"><p>Новости</p></a>
-	 					</li>
-	 					<li class="nav-item">
-	 						<a class="nav-link" href="q-a.php"><p>Вопрос-ответ</p></a>
-	 					</li>
-	 					<li class="nav-item">
-	 						<a class="nav-link" href="commentsPage.php"><p>Отзывы</p></a>
-	 					</li>
-	 					<li class="nav-item">
-	 						<a class="nav-link" href="contactsPage.php"><p>Контакты</p></a>
-	 					</li>
-	 					<li class="nav-item">
-	 						<a class="nav-link" href="accountPage.php"><p>Личный кабинет</p></a>
-	 					</li>
-			 		</ul>
-			 		<hr>
-				 	<div class="row w-100">
-				 		<div class="col-6 mobileNavFooter">
-				 			<p>+7 (912) 853 29 40<br>+7 (912) 444 87 29</p>
-				 		</div>
-				 		<div class="col-6">
-				 			<p>haidarov_f@mail.ru<br><a data-fancybox data-animation-duration="700" data-src="#callBackModal" href="javascript:;">Обратный звонок</a></p>
-				 		</div>
-				 		<div class="col-10 callReceptionText mobileNavFooter">
-				 			<p class="text-left">Прием звонков с 07:00 до 18:00</p>
-				 			<p class="text-left">Примем заявок с сайта 24/7</p>
-				 		</div>
-				 	</div>
-			 	</div>
+	   				<span class="navbar-toggler-icon" id="toggle"><img src="img/icons/burger.png"></span>
+		  		</button>
 			</div>
+			<div class="col-auto">
+				<img src="img/logos/mtmMobile.png">
+			</div>
+			<div class="col-2">
+				<img src="img/icons/loupeWhite.png">
+			</div>
+			<div class="collapse navbar-collapse" id="navbarNav">
+		 		<ul class="navbar-nav">
+		 			<li class="nav-item nav-item-first">
+ 						<a class="nav-link" href="index.php"><p>Интернет - магазин</p><span class="sr-only">(current)</span></a>
+ 					</li>
+ 					<li class="nav-item">
+ 						<a class="nav-link" href="index.php"><p>Главная</p></a>
+ 					</li>
+ 					<li class="nav-item">
+ 						<a class="nav-link" href="aboutCompanyPage.php"><p>О компании</p></a>
+ 					</li>
+ 					<li class="nav-item">
+ 						<a class="nav-link" href="servicesPage.php"><p>Услуги</p></a>
+ 					</li>
+ 					<li class="nav-item">
+ 						<a class="nav-link" href="paymentAndDelivery.php"><p>Оплата и доставка</p></a>
+ 					</li>
+ 					<li class="nav-item">
+ 						<a class="nav-link" href="contactsPage.php"><p>Контакты</p></a>
+ 					</li>
+ 					<li class="nav-item">
+ 						<a class="nav-link" href="accountPage.php"><p>Личный кабинет</p></a>
+ 					</li>
+ 					<li class="nav-item">
+ 						<a class="nav-link" href=".php"><p>Корзина</p></a>
+ 					</li>
+		 		</ul>
+		 		<hr>
+			 	<div class="row ml-12 mobileNavFooter">
+			 		<div class="col-6">
+			 			<p>+7 (3412) 48-73-83</p>
+			 			<p>8 (800) 800 80 80</p>
+			 		</div>
+			 		<div class="col-6 pl-0">
+			 			<p class="mailOverBtn">zavodmtm@mail.ru</p>
+			 			<button class="redBtn">Обратный звонок</button>
+			 		</div>
+			 	</div>
+		 	</div>
 		</div>
-	</section>
+	</div>
+</section>
