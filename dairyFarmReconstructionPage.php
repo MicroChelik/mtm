@@ -1,7 +1,7 @@
 <?php
 	include('htmlHead.php');
 ?>
-<body id="dairyFarmReconstructionPage">	
+<body class="dairyFarmReconstructionPage">	
 	<?php
 		include('nav.php');
 	?>

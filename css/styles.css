@@ -1,8 +1,21 @@
 /*ubuntu regular почти везде. Roboto regulat в футере и паре мест*/
+::-webkit-input-placeholder {
+              color: rgba(27, 96, 182, 0.5) !important;
+}
+::-moz-placeholder { /* Firefox 19+ */
+              color: rgba(27, 96, 182, 0.5) !important;
+}
+:-ms-input-placeholder {
+              color: rgba(27, 96, 182, 0.5) !important;
+}
+:-moz-placeholder { /* Firefox 18- */
+              color: rgba(27, 96, 182, 0.5) !important;
+}
 footer{
   height: 353px;
   padding-top: 40px;
   background-image: url('../img/background/footer.png'); 
+  background-size: cover;
   background-repeat: no-repeat; 
   font-size: 14px;
   line-height: 16px;
@@ -73,6 +86,22 @@ nav .active{
 nav .row{
   padding-top: 20px;
 }
+.aboutCompany{
+  background-image: url('../img/background/headSlider.png'); 
+  background-repeat: no-repeat;
+  height: 400px;
+}
+.aboutCompany p{
+  font-size: 36px;
+  font-weight: 500;
+  color: #fff;
+}
+.aboutCompany .redBtn{
+  border-radius: 10px;
+  font-size: 14px;
+  width: 130px !important;
+  height: 30px !important; 
+}
 .advantageSlider img{
   margin: auto;
 }
@@ -81,6 +110,10 @@ nav .row{
 }
 .advantageSlider .d-flex{
   height: 100px;
+}
+.advImg4,
+.advImg3{
+  padding-right: 20px;
 }
 .bestsellers input{
   width: 1em;
@@ -167,8 +200,61 @@ nav .row{
 .contactsP3{
   margin-bottom: 20px;
 }
+.dairyFarmReconstructionPage .mainContainer p{
+  font-size: 14px;
+  line-height: 18px;
+  color: #061C2E;
+}
+.dairyFarmReconstructionPage h3{
+  line-height: 23px;
+  font-size: 18px;
+  color: #124E7D;
+}
+.dairyFarmReconstructionPage .buttons .redBtn{
+  width: 164px;
+  height: 39px;
+  border-radius: 8px;
+}
+.dairyFarmReconstructionPage .lastServiceTheme{
+  font-size: 16px !important; 
+}
 .footerTitleContacts{
   margin-bottom: 26px;
+}
+.formImg{
+  flex: 0 0 36.666667%;
+  max-width: 36.666667%;
+  position: absolute;
+  left: 0%;
+}
+.formImg img{
+  width: 100%;
+}
+.formSection a{
+  color: #D80000;
+}
+.formSection p{
+  font-size: 10px;
+  color: #061C2E;
+}
+.formSection h2{
+  margin-bottom: 30px;
+}
+.formSection{
+  background: linear-gradient(79.99deg, rgba(27, 96, 182, 0.15) 36.53%, rgba(0, 102, 255, 0.05) 100.7%);
+  min-height: 385px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.formSection .form-control{
+  border: 1px solid rgba(0, 102, 255, 0.15);
+  border-radius: 8px;
+  margin-bottom: 11px;
+}
+.formSection .redBtn{
+  width: 100%;
+  height: 44px;
+  border-radius: 8px;
 }
 .headSlider .row{
   height: 400px;
@@ -210,7 +296,7 @@ nav .row{
   margin-bottom: 15px !important;
 }
 .mobileNavFooter .redBtn{
-  border-radius: 10px;
+  border-radius: 8px;
   margin-bottom: 15px;
 }
 .mobileNavPhoneNumbers{
@@ -289,6 +375,14 @@ nav .row{
 .redText{
   color: #D80000;
 }
+.redTransBtn{
+  width: 130px;
+  height: 30px;
+  color: #D80000;
+  background: transparent;
+  border: 1px solid #D80000;
+  border-radius: 8px;
+}
 .searchSection{
   font-size: 12px;
   height: 96px;
@@ -296,6 +390,14 @@ nav .row{
 }
 .searchSection .row{
   height: 96px;
+}
+.servicesPage .blueBtn{
+  background: #1B60B6;
+  border-radius: 8px;
+  width: 220px;
+  height: 39px;
+  font-size: 14px;
+  color: #fff;
 }
 .servicesRow .card{
   height: 300px;
@@ -308,39 +410,60 @@ nav .row{
   width: 26.1px;
   height: 26.1px;
 }
-#aboutCompany{
-  background-image: url('../img/background/headSlider.png'); 
-  background-repeat: no-repeat;
-  height: 400px;
+.store-img-title p{
+  margin: auto;
+  font-size: 14px;
 }
-#aboutCompany p{
-  font-size: 36px;
-  font-weight: 500;
+.store-img-title{
+  background: rgba(216, 0, 0, 0.6);
+  text-align: center;
+  height: 36px;
+  position: relative;
+  top: -36px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
   color: #fff;
+  display: flex;
 }
-#aboutCompany .redBtn{
-  border-radius: 10px;
-  font-size: 14px;
-  width: 130px !important;
-  height: 30px !important; 
-}
-#dairyFarmReconstructionPage .mainContainer p{
-  font-size: 14px;
-  line-height: 18px;
-  color: #061C2E;
-}
-#dairyFarmReconstructionPage h3{
-  line-height: 23px;
-  font-size: 18px;
-  color: #124E7D;
-}
-#dairyFarmReconstructionPage .buttons .redBtn{
-  width: 164px;
-  height: 39px;
+.store-products img{
+  width: 100%;
   border-radius: 8px;
 }
-#dairyFarmReconstructionPage .lastServiceTheme{
-  font-size: 16px !important; 
+.store-sections li{
+  list-style-type: none;
+  font-size: 14px;
+  color: #061C2E;
+}
+.store-sections ul{
+  padding-left: 17px;
+}
+.store-sections .store-section-main{ 
+  width: 271px;
+  height: 37px;
+  background: #124E7D;
+  border-radius: 8px;
+  border: 1px solid #FFFFFF;
+  color: #fff;
+  font-weight: 500;
+  display: flex;
+}
+.store-sections img{
+  width: 16px;
+  height: 8px;
+  position: relative;
+  right: -29%;
+  top: 40%;
+}
+.store-sections p{
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 17px;
+}
+.store-sections .active{
+  background: #D80000 !important;
+}
+.store-section-main{
+
 }
 #navbarNav {
   position: absolute;
@@ -355,14 +478,6 @@ nav .row{
 }
 #navbarNav hr{
   border-bottom: 1px solid #124E7D;
-}
-#servicesPage .blueBtn{
-  background: #1B60B6;
-  border-radius: 8px;
-  width: 220px;
-  height: 39px;
-  font-size: 14px;
-  color: #fff;
 }
 #toTop {
   width: 100px;
@@ -383,7 +498,12 @@ nav .row{
   .brandsSlider img{
     margin: auto;
   }
+  .formSection{
+    background: #fff;
+    margin-top: 0;
+  }
   .mobileFooter .redBtn{
     margin-bottom: 24px;
+    border-radius: 8px;
   }
 }

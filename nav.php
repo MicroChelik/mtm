@@ -32,7 +32,7 @@
 	<div class="container">
 		<div class="row justify-content-between">
 			<div class="col-auto">
-				<a href="index.php">Интернет - магазин</a>
+				<a href="store.php">Интернет - магазин</a>
 			</div>
 			<div class="col-auto">
 				<a href="index.php" class="active">Главная</a>
@@ -69,7 +69,7 @@
 			<div class="collapse navbar-collapse" id="navbarNav">
 		 		<ul class="navbar-nav">
 		 			<li class="nav-item nav-item-first">
- 						<a class="nav-link" href="index.php"><p>Интернет - магазин</p><span class="sr-only">(current)</span></a>
+ 						<a class="nav-link" href="store.php"><p>Интернет - магазин</p><span class="sr-only">(current)</span></a>
  					</li>
  					<li class="nav-item">
  						<a class="nav-link" href="index.php"><p>Главная</p></a>

@@ -118,6 +118,11 @@ $(document).ready(function() {
 		]
 	});
 
+	// $('.select__list').click(function(){
+	// 	console.log('12');
+	// 	$(this).find('.select__option').slideToggle(300);
+ // 	});
+
 	$(function() {
 		$(window).scroll(function() {
 			if($(this).scrollTop() != 0) {

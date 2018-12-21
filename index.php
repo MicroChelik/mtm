@@ -1,11 +1,11 @@
 <?php
 	include('htmlHead.php');
 ?>
-<body id="mainPage">	
+<body class="mainPage">	
 	<?php
 		include('nav.php');
 	?>
-	<section id="aboutCompany">
+	<section class="aboutCompany">
 		<div class="container">
 			<div class="headSlider row">
 				<div>
@@ -310,8 +310,11 @@
 		</div>
 	</section>
 	<?php
-		include('footer.php');
+		include('formSection.php')
 	?>
 	<?php
-		include('htmlEndBody.php');
+		include('footer.php');
 	?>
+<?php
+	include('htmlEndBody.php');
+?>

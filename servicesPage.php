@@ -1,7 +1,7 @@
 <?php
 	include('htmlHead.php');
 ?>
-<body id="servicesPage">	
+<body class="servicesPage">	
 	<?php
 		include('nav.php');
 	?>

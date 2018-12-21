@@ -1,7 +1,7 @@
 <?php
 	include('htmlHead.php');
 ?>
-<body id="aboutCompanyPage">	
+<body class="aboutCompanyPage">	
 	<?php
 		include('nav.php');
 	?>
@@ -63,8 +63,11 @@
 		</div>
 	</section>
 	<?php
-		include('footer.php');
+		include('formSection.php')
 	?>
 	<?php
-		include('htmlEndBody.php');
+		include('footer.php');
 	?>
+<?php
+	include('htmlEndBody.php');
+?>
