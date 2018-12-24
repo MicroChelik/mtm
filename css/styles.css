@@ -115,11 +115,6 @@ nav .row{
 .advImg3{
   padding-right: 20px;
 }
-.bestsellers input{
-  width: 1em;
-  height: 30px;
-  background: rgba(27, 96, 182, 0.15);
-}
 .bestsellers .blueBtn{
   background: #1B60B6;
   border-radius: 8px;
@@ -164,10 +159,23 @@ nav .row{
   font-weight: 500;
 }
 .cardValue button{
-  height: 30px;
   width: 31px;
-  background: #fff;
+  background: transparent;
+  border: 0;
+  font-size: 16px;
+}
+.cardValue input{
+  width: 32px;
+  height: 29px;
+  background: rgba(27, 96, 182, 0.15);
+  border: 0;
+  text-align: center;
+  border-radius: 8px;
+}
+.cardValue{
   border: 1px solid rgba(27, 96, 182, 0.15);
+  border-radius: 8px;
+  height: 31px;
 }
 .cardPrice{
   font-weight: bold;
@@ -222,8 +230,8 @@ nav .row{
   margin-bottom: 26px;
 }
 .formImg{
-  flex: 0 0 36.666667%;
-  max-width: 36.666667%;
+  flex: 0 0 34.666667%;
+  max-width: 34.666667%;
   position: absolute;
   left: 0%;
 }
@@ -349,6 +357,22 @@ nav .row{
   background: #D80000;
   color: #fff;
 }
+.productsSlider img{
+  border-radius: 8px;
+  width: 120px;
+  margin: auto;
+}
+.productsSlider{
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.productsSlider .productsDiv{
+  width: 135px;
+  display: flex;
+}
+.product-specifications-text{
+  display: none;
+}
 .redBtn{
   width: 128px;
   height: 25px;
@@ -413,6 +437,7 @@ nav .row{
 .store-img-title p{
   margin: auto;
   font-size: 14px;
+  line-height: 14px;
 }
 .store-img-title{
   background: rgba(216, 0, 0, 0.6);
@@ -464,6 +489,12 @@ nav .row{
 }
 .store-section-main{
 
+}
+.thisProduct .aboutThisProduct .redBtn{
+  width: 100%;
+  height: 38px;
+  border-radius: 8px;
+  margin-top: 11px;
 }
 #navbarNav {
   position: absolute;

@@ -104,10 +104,12 @@
 				<div class="col-lg-9">
 					<div class="row store-products">
 						<div class="col-lg-4">
-							<img src="img/store/1.png">
-							<div class="store-img-title">
-								<p>Холодильное оборудование</p>
-							</div>
+							<a href="thisStoreSection.php">
+								<img src="img/store/1.png">
+								<div class="store-img-title">
+									<p>Холодильное оборудование</p>
+								</div>
+							</a>
 						</div>
 						<div class="col-lg-4">
 							<img src="img/store/2.png">
