@@ -51,12 +51,12 @@
 					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-lg-3">
-					<p class="product-description active">Описание товара</p>
+			<div class="row descripton-row">
+				<div class="col-lg-3 product-description active">
+					<p class="">Описание товара</p>
 				</div>
-				<div class="col-lg-3">
-					<p class="product-specifications">Характеристики</p>
+				<div class="col-lg-3 product-specifications">
+					<p class="">Характеристики</p>
 				</div>
 				<div class="col-11 product-description-text">
 					<p>

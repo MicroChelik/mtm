@@ -47,7 +47,7 @@ $(document).ready(function() {
 		infinite: true,
 		slidesToShow: 1,
 		slidesToScroll: 1,
-		dots: false,
+		dots: true,
 		dotsClass: "my-dots",
 		prevArrow: '.prev1',
 		nextArrow: '.next1'
@@ -56,8 +56,8 @@ $(document).ready(function() {
 		infinite: true,
 		slidesToShow: 4,
 		slidesToScroll: 1,
-		dots: false,
-		dotsClass: "my-dots",
+		dots: true,
+		dotsClass: "my-dots-blue",
 		prevArrow: '.prev2',
 		nextArrow: '.next2',
 		responsive: [

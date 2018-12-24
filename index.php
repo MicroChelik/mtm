@@ -46,6 +46,14 @@
 				</div>
 			</div>
 			<div class="row justify-content-between headSliderarrows d-lg-flex d-none">
+				<div class="col-auto">
+					<img src="img/icons/wLeft.png" class="prev1" alt="назад">
+				</div>
+				<div class="col-auto">
+					<img src="img/icons/wRight.png" class="next1" alt="вперед">
+				</div>
+			</div>
+			<div class="row justify-content-between headSliderarrows d-lg-flex d-none">
 				<div class="col-auto prev1">
 				</div>
 				<div class="col-auto next1">
@@ -60,7 +68,7 @@
 					<h2>О компании</h2>
 				</div>
 				<div class="col-lg-12">
-					<p>
+					<p class="about-company-text">
 						Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликации "Здесь ваш текст.. Здесь ваш текст.. Здесь ваш текст.." Многие программы электронной вёрстки и редакторы HTML используют Lorem Ipsum в качестве текста по умолчанию, так что поиск по ключевым словам "lorem ipsum" сразу показывает, как много веб-страниц всё ещё дожидаются своего настоящего рождения. За прошедшие годы текст Lorem Ipsum получил много версий. Некоторые версии появились по ошибке, некоторые - намеренно (например, юмористические варианты).
 					</p>
 				</div>
@@ -102,7 +110,7 @@
 			</div>
 		</div>
 	</section>
-	<section>
+	<section class="bestsellers-container">
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
@@ -219,6 +227,14 @@
 							</div>
 						</div>
 					</div>
+				</div>
+			</div>
+			<div class="row justify-content-between bestsellersArrows d-lg-flex d-none">
+				<div class="col-auto">
+					<img src="img/icons/bLeft.png" class="prev2" alt="назад">
+				</div>
+				<div class="col-auto">
+					<img src="img/icons/bRight.png" class="next2" alt="вперед">
 				</div>
 			</div>
 		</div>

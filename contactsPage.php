@@ -11,21 +11,21 @@
 				<div class="col-12">
 					<h2>Контакты</h2>
 				</div>
-				<div class="col-lg-3">
-					<p>Офис  "Молтехмаш", г. Ижевск, ул. Карла Либкнехта, 6</p>
-					<p>
+				<div class="col-lg-3 contacts">
+					<p class="office-address contacts-black">Офис  "Молтехмаш", г. Ижевск, ул. Карла Либкнехта, 6</p>
+					<p class="contacts-black">
 						<span>Время работы:</span>
 						<br>
 						Прием звонков с 07:00 до 16:00 МСК
 					</p>
-					<p>
+					<p class="contacts-black">
 						<span>Телефоны:</span>
 						<br>
 						+7 (912) 800-80-80
 						<br>
 						8 (3412) 80-80-80
 					</p>
-					<p>
+					<p class="contacts-black">
 						<span>Email:</span>
 						<br>
 						login@mail.ru
@@ -36,7 +36,7 @@
 						<img src="img/icons/3.png">
 						<img src="img/icons/4.png">
 					</div>
-					<a href="">
+					<a href="" class="requisites">
 						<img src="">
 						<p>Скачать реквизиты компании</p>
 					</a>

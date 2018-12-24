@@ -5,7 +5,9 @@
 				<img src="img/logos/mtm.png" class="logoMtm">
 			</div>
 			<div class="col-lg-5">
-				<input class="form-control" type="search" placeholder="Поиск">
+				<a href="searchPage.php">
+					<input class="form-control" type="search" placeholder="Поиск">
+				</a>
 			</div>
 			<div class="col-lg-auto">
 				<button class="redBtn">Обратный звонок</button>
