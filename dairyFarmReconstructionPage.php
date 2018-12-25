@@ -74,13 +74,109 @@
 			</div>
 			<div class="row justify-content-end buttons">
 				<div class="col-lg-auto">
-					<button class="redWhiteBtn">Узнать цену на услугу</button>
+					<button class="redWhiteBtn"><a data-fancybox data-animation-duration="700" data-src="#getServicePriceModal" href="javascript:;">Узнать цену на услугу</a></button>
+				</div>
+				<div style="display: none;" id="getServicePriceModal" class="animated-modal">
+					<div class="card">
+						<div class="card-body">
+							<h2>Заказать услугу</h2>
+							<form action = "javascript: void(null);" method="post" id="">
+								<div class="row">
+									<div class="col-12 form-group">
+										<input type="text" class="form-control" name="name" placeholder="Ваше имя">
+									</div>
+									<div class="col-12 form-group">
+										<input type="number" class="form-control" name="phoneNumber" placeholder="Ваш номер телефона *" required>
+									</div>
+									<div class="col-12 form-group">
+										<input type="email" class="form-control" name="phoneNumber" placeholder="Ваш e-mail *" required>
+									</div>
+									<div class="col-12 form-group">
+										<textarea class="form-control" name="text" rows="3" placeholder="Ваш комментарий *" required=""></textarea>
+									</div>
+									<div class="col-lg-6 col-12 captchaDiv recaptcha-wrapper"><div class="g-recaptcha captcha" data-sitekey="6Ldo2nsUAAAAAHtVQzC6Wlif4QzFftZHGoaq0EK7"></div></div>						
+									<div class="col-lg-6 col-12">
+										<p class="personalInformation">
+											Нажимая на кнопку, вы даете свое согласие на обработку<br class="d-none d-lg-block">персональных данных. <a href="" target="blank" rel="noopener noreferrer">Узнать больше</a>
+										</p>
+									</div>
+									<div class="col-12 d-flex">
+										<button type="submit" class="redBtn mx-auto">Отправить</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
 				</div>
 				<div class="col-lg-auto">
-					<button class="blueBtn">Задать вопрос</button>
+					<button class="blueBtn"><a data-fancybox data-animation-duration="700" data-src="#takeQuestionModal" href="javascript:;">Задать вопрос</a></button>
+				</div>
+				<div style="display: none;" id="takeQuestionModal" class="animated-modal">
+					<div class="card">
+						<div class="card-body">
+							<h2>Узнать цену на услугу</h2>
+							<form action = "javascript: void(null);" method="post" id="">
+								<div class="row">
+									<div class="col-12 form-group">
+										<input type="text" class="form-control" name="name" placeholder="Ваше имя">
+									</div>
+									<div class="col-12 form-group">
+										<input type="number" class="form-control" name="phoneNumber" placeholder="Ваш номер телефона *" required>
+									</div>
+									<div class="col-12 form-group">
+										<input type="email" class="form-control" name="phoneNumber" placeholder="Ваш e-mail *" required>
+									</div>
+									<div class="col-12 form-group">
+										<textarea class="form-control" name="text" rows="3" placeholder="Ваш комментарий *" required=""></textarea>
+									</div>
+									<div class="col-lg-6 col-12 captchaDiv recaptcha-wrapper"><div class="g-recaptcha captcha" data-sitekey="6Ldo2nsUAAAAAHtVQzC6Wlif4QzFftZHGoaq0EK7"></div></div>						
+									<div class="col-lg-6 col-12">
+										<p class="personalInformation">
+											Нажимая на кнопку, вы даете свое согласие на обработку<br class="d-none d-lg-block">персональных данных. <a href="" target="blank" rel="noopener noreferrer">Узнать больше</a>
+										</p>
+									</div>
+									<div class="col-12 d-flex">
+										<button type="submit" class="redBtn mx-auto">Отправить</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
 				</div>
 				<div class="col-lg-auto">
-					<button class="redBtn">Заказать услугу</button>
+					<button class="redBtn"><a data-fancybox data-animation-duration="700" data-src="#orderServiceModal" href="javascript:;">Заказать услугу</a></button>
+				</div>
+				<div style="display: none;" id="orderServiceModal" class="animated-modal">
+					<div class="card">
+						<div class="card-body">
+							<h2>Задать вопрос</h2>
+							<form action = "javascript: void(null);" method="post" id="">
+								<div class="row">
+									<div class="col-12 form-group">
+										<input type="text" class="form-control" name="name" placeholder="Ваше имя">
+									</div>
+									<div class="col-12 form-group">
+										<input type="number" class="form-control" name="phoneNumber" placeholder="Ваш номер телефона *" required>
+									</div>
+									<div class="col-12 form-group">
+										<input type="email" class="form-control" name="phoneNumber" placeholder="Ваш e-mail *" required>
+									</div>
+									<div class="col-12 form-group">
+										<textarea class="form-control" name="text" rows="3" placeholder="Ваш комментарий *" required=""></textarea>
+									</div>
+									<div class="col-lg-6 col-12 captchaDiv recaptcha-wrapper"><div class="g-recaptcha captcha" data-sitekey="6Ldo2nsUAAAAAHtVQzC6Wlif4QzFftZHGoaq0EK7"></div></div>						
+									<div class="col-lg-6 col-12">
+										<p class="personalInformation">
+											Нажимая на кнопку, вы даете свое согласие на обработку<br class="d-none d-lg-block">персональных данных. <a href="" target="blank" rel="noopener noreferrer">Узнать больше</a>
+										</p>
+									</div>
+									<div class="col-12 d-flex">
+										<button type="submit" class="redBtn mx-auto">Отправить</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>

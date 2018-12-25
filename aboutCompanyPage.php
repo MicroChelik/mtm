@@ -60,6 +60,14 @@
 					<p>Башкортостан, строительство коровника на 400 голов с ДМБ</p>
 				</div>
 			</div>
+			<div class="row justify-content-between bestsellersArrows d-lg-flex d-none">
+				<div class="col-auto arrow-leftDiv">
+					<img src="img/icons/bLeft.png" class="prev5" alt="назад">
+				</div>
+				<div class="col-auto arrow-rightDiv">
+					<img src="img/icons/bRight.png" class="next5" alt="вперед">
+				</div>
+			</div>
 		</div>
 	</section>
 	<?php

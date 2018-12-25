@@ -2,7 +2,34 @@
 	<div class="container">
 		<div class="row align-items-center">
 			<div class="col-lg-auto">
-				<button class="redBtn">Запросить прайс</button>
+				<button class="redBtn"><a data-fancybox data-animation-duration="700" data-src="#getPriceModal" href="javascript:;">Запросить прайс<a></button>
+			</div>
+			<div style="display: none;" id="getPriceModal" class="animated-modal">
+				<div class="card">
+					<div class="card-body">
+						<h2>Запросить прайс</h2>
+						<form action = "javascript: void(null);" method="post" id="">
+							<div class="row">
+								<div class="col-12 form-group">
+									<input type="text" class="form-control" name="name" placeholder="Ваше имя/наименование организации *" required>
+								</div>
+								<div class="col-12 form-group">
+									<input type="email" class="form-control" name="phoneNumber" placeholder="Ваш E-mail *" required>
+								</div>
+								<div class="col-12 form-group">
+									<input type="number" class="form-control" name="phoneNumber" placeholder="Ваш номер телефона *" required>
+								</div>
+								<div class="col-lg-6 col-12 captchaDiv recaptcha-wrapper"><div class="g-recaptcha captcha" data-sitekey="6Ldo2nsUAAAAAHtVQzC6Wlif4QzFftZHGoaq0EK7"></div></div>						
+								<div class="col-lg-6 col-12">
+									<p class="personalInformation">Нажимая на кнопку, вы даете свое согласие на обработку<br class="d-none d-lg-block">персональных данных. <a href="" target="blank" rel="noopener noreferrer">Узнать больше</a></p>
+								</div>
+								<div class="col-12 d-flex">
+									<button type="submit" class="redBtn mx-auto">Отправить</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
 			</div>
 			<div class="col-lg-auto d-flex socialImgs">
 				<img src="img/icons/1.png">
@@ -19,8 +46,130 @@
 			</div>
 			<div class="col-lg-2">
 				<img src="img/icons/human.png" class="humanImg">
-				<p class="redText">Вход</p>
-				<p>Регистрация</p>
+				<p class="redText"><a data-fancybox data-animation-duration="700" data-src="#signInModal" href="javascript:;" class="signInText">Вход</a></p>
+				<div style="display: none;" id="signInModal" class="animated-modal">
+					<div class="card">
+						<div class="card-body">
+							<h2>Личный кабинет</h2>
+							<div class="col-12 d-flex modal-buttons">
+								<button class="active signIn">Вход</button>
+								<button class="logIn">Регистрация</button>
+							</div>
+							<form action = "javascript: void(null);" method="post" id="" class="signInForm">
+								<div class="row">
+									<div class="col-12 form-group">
+										<input type="email" class="form-control" name="phoneNumber" placeholder="Ваш E-mail *" required>
+									</div>
+									<div class="col-12 form-group">
+										<input type="text" class="form-control" name="phoneNumber" placeholder="Ваш пароль *" required>
+									</div>
+									<div class="col-lg-6 col-12 captchaDiv recaptcha-wrapper"><div class="g-recaptcha captcha" data-sitekey="6Ldo2nsUAAAAAHtVQzC6Wlif4QzFftZHGoaq0EK7"></div></div>						
+									<div class="col-lg-6 col-12">
+									<p class="personalInformation"><a data-fancybox data-animation-duration="700" data-src="#forgetPasswordModal" href="javascript:;" class="signInText">Забыли пароль ?</a></p>
+										<div style="display: none;" id="forgetPasswordModal" class="animated-modal">
+											<div class="card">
+												<div class="card-body">
+													<h2>Восстановить пароль</h2>
+													<form action = "javascript: void(null);" method="post" id="">
+														<div class="row">
+															<div class="col-12 form-group">
+																<input type="email" class="form-control" name="phoneNumber" placeholder="Ваш E-mail *" required>
+															</div>
+															<div class="col-lg-6 col-12 captchaDiv recaptcha-wrapper"><div class="g-recaptcha captcha" data-sitekey="6Ldo2nsUAAAAAHtVQzC6Wlif4QzFftZHGoaq0EK7"></div></div>
+															<div class="col-12 d-flex">
+																<button type="submit" class="redBtn mx-auto">Восстановить пароль</button>
+															</div>
+														</div>
+													</form>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-12 d-flex">
+										<button type="submit" class="redBtn mx-auto">Войти</button>
+									</div>
+								</div>
+							</form>
+							<form action = "javascript: void(null);" method="post" id="" class="logInForm">
+								<div class="row">
+									<div class="col-12 form-group">
+										<input type="email" class="form-control" name="phoneNumber" placeholder="Ваш E-mail *" required>
+									</div>
+									<div class="col-12 form-group">
+										<input type="text" class="form-control" name="phoneNumber" placeholder="Придумайте пароль *" required>
+									</div>
+									<div class="col-12 form-group">
+										<input type="text" class="form-control" name="phoneNumber" placeholder="Повротите пароль *" required>
+									</div>
+									<p>Пароль должен быть от 6 до 32 символов.</p>
+									<div class="col-lg-6 col-12 captchaDiv recaptcha-wrapper"><div class="g-recaptcha captcha" data-sitekey="6Ldo2nsUAAAAAHtVQzC6Wlif4QzFftZHGoaq0EK7"></div></div>						
+									<div class="col-lg-6 col-12">
+									<p class="personalInformation">
+										Нажимая на кнопку, вы даете свое согласие на обработку<br class="d-none d-lg-block">персональных данных. <a href="" target="blank" rel="noopener noreferrer">Узнать больше</a>
+									</p>
+									</div>
+									<div class="col-12 d-flex">
+										<button type="submit" class="redBtn mx-auto">Зарегистрироваться</button>
+									</div>
+									<p>Укажите Email, и мы пришлем вам на почту сообщение для подтверждения</p>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<p><a data-fancybox data-animation-duration="700" data-src="#logInModal" href="javascript:;" class="logInText">Регистрация</a></p>
+				<div style="display: none;" id="logInModal" class="animated-modal">
+					<div class="card">
+						<div class="card-body">
+							<h2>Личный кабинет</h2>
+							<div class="col-12 d-flex modal-buttons">
+								<button class="signIn">Вход</button>
+								<button class="logIn active">Регистрация</button>
+							</div>
+							<form action = "javascript: void(null);" method="post" id="" class="signInForm">
+								<div class="row">
+									<div class="col-12 form-group">
+										<input type="email" class="form-control" name="phoneNumber" placeholder="Ваш E-mail *" required>
+									</div>
+									<div class="col-12 form-group">
+										<input type="text" class="form-control" name="phoneNumber" placeholder="Ваш пароль *" required>
+									</div>
+									<div class="col-lg-6 col-12 captchaDiv recaptcha-wrapper"><div class="g-recaptcha captcha" data-sitekey="6Ldo2nsUAAAAAHtVQzC6Wlif4QzFftZHGoaq0EK7"></div></div>						
+									<div class="col-lg-6 col-12">
+									<p class="personalInformation">Нажимая на кнопку, вы даете свое согласие на обработку<br class="d-none d-lg-block">персональных данных. <a href="" target="blank" rel="noopener noreferrer">Узнать больше</a></p>
+									</div>
+									<div class="col-12 d-flex">
+										<button type="submit" class="redBtn mx-auto">Войти</button>
+									</div>
+								</div>
+							</form>
+							<form action = "javascript: void(null);" method="post" id="" class="logInForm">
+								<div class="row">
+									<div class="col-12 form-group">
+										<input type="email" class="form-control" name="phoneNumber" placeholder="Ваш E-mail *" required>
+									</div>
+									<div class="col-12 form-group">
+										<input type="text" class="form-control" name="phoneNumber" placeholder="Придумайте пароль *" required>
+									</div>
+									<div class="col-12 form-group">
+										<input type="text" class="form-control" name="phoneNumber" placeholder="Повротите пароль *" required>
+									</div>
+									<p>Пароль должен быть от 6 до 32 символов.</p>
+									<div class="col-lg-6 col-12 captchaDiv recaptcha-wrapper"><div class="g-recaptcha captcha" data-sitekey="6Ldo2nsUAAAAAHtVQzC6Wlif4QzFftZHGoaq0EK7"></div></div>						
+									<div class="col-lg-6 col-12">
+									<p class="personalInformation">
+										Нажимая на кнопку, вы даете свое согласие на обработку<br class="d-none d-lg-block">персональных данных. <a href="" target="blank" rel="noopener noreferrer">Узнать больше</a>
+									</p>
+									</div>
+									<div class="col-12 d-flex">
+										<button type="submit" class="redBtn mx-auto">Зарегистрироваться</button>
+									</div>
+									<p>Укажите Email, и мы пришлем вам на почту сообщение для подтверждения</p>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>

@@ -46,7 +46,39 @@
 					</div>	
 					<div class="row justify-content-end">
 						<div class="col-lg-5">
-							<button class="redBtn">Купить товар</button>
+							<button class="redBtn"><a data-fancybox data-animation-duration="700" data-src="#orderProductModal" href="javascript:;">Купить товар</a></button>
+						</div>
+					</div>
+					<div style="display: none;" id="orderProductModal" class="animated-modal">
+						<div class="card">
+							<div class="card-body">
+								<h2>Заказать товар</h2>
+								<form action = "javascript: void(null);" method="post" id="">
+									<div class="row">
+										<div class="col-12 form-group">
+											<input type="text" class="form-control" name="name" placeholder="Ваше имя">
+										</div>
+										<div class="col-12 form-group">
+											<input type="number" class="form-control" name="phoneNumber" placeholder="Ваш номер телефона *" required>
+										</div>
+										<div class="col-12 form-group">
+											<input type="email" class="form-control" name="phoneNumber" placeholder="Ваш e-mail *" required>
+										</div>
+										<div class="col-12 form-group">
+											<textarea class="form-control" name="text" rows="3" placeholder="Ваш комментарий *" required=""></textarea>
+										</div>
+										<div class="col-lg-6 col-12 captchaDiv recaptcha-wrapper"><div class="g-recaptcha captcha" data-sitekey="6Ldo2nsUAAAAAHtVQzC6Wlif4QzFftZHGoaq0EK7"></div></div>						
+										<div class="col-lg-6 col-12">
+											<p class="personalInformation">
+												Нажимая на кнопку, вы даете свое согласие на обработку<br class="d-none d-lg-block">персональных данных. <a href="" target="blank" rel="noopener noreferrer">Узнать больше</a>
+											</p>
+										</div>
+										<div class="col-12 d-flex">
+											<button type="submit" class="redBtn mx-auto">Отправить</button>
+										</div>
+									</div>
+								</form>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -111,6 +143,35 @@
 				<div class="col-12">
 					<h2>Вам понадобится</h2>
 				</div>
+				<div style="display: none;" id="oneClickBuyModal" class="animated-modal">
+					<div class="card">
+						<div class="card-body">
+							<h2>Купить в один клик</h2>
+							<form action = "javascript: void(null);" method="post" id="">
+								<div class="row">
+									<div class="col-12 form-group">
+										<input type="text" class="form-control" name="name" placeholder="Ваше имя">
+									</div>
+									<div class="col-12 form-group">
+										<input type="number" class="form-control" name="phoneNumber" placeholder="Ваш номер телефона *" required>
+									</div>
+									<div class="col-12 form-group">
+										<input type="email" class="form-control" name="phoneNumber" placeholder="Ваш e-mail *" required>
+									</div>
+									<div class="col-lg-6 col-12 captchaDiv recaptcha-wrapper"><div class="g-recaptcha captcha" data-sitekey="6Ldo2nsUAAAAAHtVQzC6Wlif4QzFftZHGoaq0EK7"></div></div>						
+									<div class="col-lg-6 col-12">
+										<p class="personalInformation">
+											Нажимая на кнопку, вы даете свое согласие на обработку<br class="d-none d-lg-block">персональных данных. <a href="" target="blank" rel="noopener noreferrer">Узнать больше</a>
+										</p>
+									</div>
+									<div class="col-12 d-flex">
+										<button type="submit" class="redBtn mx-auto">Отправить</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
 				<div class="col-lg-3">
 					<div class="card">
 						<div class="card-body">
@@ -125,7 +186,7 @@
 								<p class="cardPrice">15 990 ₽</p>
 							</div>
 							<div class="d-flex justify-content-between">
-								<button class="blueBtn">Купить в 1 клик</button>
+								<button class="blueBtn"><a data-fancybox data-animation-duration="700" data-src="#oneClickBuyModal" href="javascript:;">Купить в 1 клик</a></button>
 								<div class="cardCart d-flex">
 									<img src="img/icons/cardCart.png">
 								</div>
@@ -147,7 +208,7 @@
 								<p class="cardPrice">15 990 ₽</p>
 							</div>
 							<div class="d-flex justify-content-between">
-								<button class="blueBtn">Купить в 1 клик</button>
+								<button class="blueBtn"><a data-fancybox data-animation-duration="700" data-src="#oneClickBuyModal" href="javascript:;">Купить в 1 клик</a></button>
 								<div class="cardCart d-flex">
 									<img src="img/icons/cardCart.png">
 								</div>
@@ -169,7 +230,7 @@
 								<p class="cardPrice">15 990 ₽</p>
 							</div>
 							<div class="d-flex justify-content-between">
-								<button class="blueBtn">Купить в 1 клик</button>
+								<button class="blueBtn"><a data-fancybox data-animation-duration="700" data-src="#oneClickBuyModal" href="javascript:;">Купить в 1 клик</a></button>
 								<div class="cardCart d-flex">
 									<img src="img/icons/cardCart.png">
 								</div>
@@ -191,7 +252,7 @@
 								<p class="cardPrice">15 990 ₽</p>
 							</div>
 							<div class="d-flex justify-content-between">
-								<button class="blueBtn">Купить в 1 клик</button>
+								<button class="blueBtn"><a data-fancybox data-animation-duration="700" data-src="#oneClickBuyModal" href="javascript:;">Купить в 1 клик</a></button>
 								<div class="cardCart d-flex">
 									<img src="img/icons/cardCart.png">
 								</div>
@@ -218,7 +279,7 @@
 								<p class="cardPrice">15 990 ₽</p>
 							</div>
 							<div class="d-flex justify-content-between">
-								<button class="blueBtn">Купить в 1 клик</button>
+								<button class="blueBtn"><a data-fancybox data-animation-duration="700" data-src="#oneClickBuyModal" href="javascript:;">Купить в 1 клик</a></button>
 								<div class="cardCart d-flex">
 									<img src="img/icons/cardCart.png">
 								</div>
@@ -240,7 +301,7 @@
 								<p class="cardPrice">15 990 ₽</p>
 							</div>
 							<div class="d-flex justify-content-between">
-								<button class="blueBtn">Купить в 1 клик</button>
+								<button class="blueBtn"><a data-fancybox data-animation-duration="700" data-src="#oneClickBuyModal" href="javascript:;">Купить в 1 клик</a></button>
 								<div class="cardCart d-flex">
 									<img src="img/icons/cardCart.png">
 								</div>
@@ -262,7 +323,7 @@
 								<p class="cardPrice">15 990 ₽</p>
 							</div>
 							<div class="d-flex justify-content-between">
-								<button class="blueBtn">Купить в 1 клик</button>
+								<button class="blueBtn"><a data-fancybox data-animation-duration="700" data-src="#oneClickBuyModal" href="javascript:;">Купить в 1 клик</a></button>
 								<div class="cardCart d-flex">
 									<img src="img/icons/cardCart.png">
 								</div>
@@ -284,7 +345,7 @@
 								<p class="cardPrice">15 990 ₽</p>
 							</div>
 							<div class="d-flex justify-content-between">
-								<button class="blueBtn">Купить в 1 клик</button>
+								<button class="blueBtn"><a data-fancybox data-animation-duration="700" data-src="#oneClickBuyModal" href="javascript:;">Купить в 1 клик</a></button>
 								<div class="cardCart d-flex">
 									<img src="img/icons/cardCart.png">
 								</div>

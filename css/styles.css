@@ -93,6 +93,9 @@ body{
 button{
   font-family: 'Roboto-Regular' !important;
 }
+button a{
+  color: inherit;
+}
 footer{
   height: 353px;
   padding-top: 40px;
@@ -194,6 +197,31 @@ nav .row{
   font-size: 14px;
   width: 130px !important;
   height: 30px !important; 
+}
+.animated-modal a{
+  width: 100%;
+}
+.animated-modal h2{
+  margin-bottom: 35px;
+  margin-top: 15px;
+}
+.animated-modal{
+  max-width: 30%;
+  padding: 0px;
+  border-radius: 8px;
+}
+.animated-modal .redBtn{
+  width: 60%;
+  height: 44px;
+  border-radius: 8px;
+}
+.arrow-leftDiv{
+  position: relative;
+  right: 40px;
+}
+.arrow-rightDiv{
+  position: relative;
+  right: -40px;
 }
 .bestsellersArrows{
   position: relative;
@@ -299,6 +327,9 @@ nav .row{
   font-weight: 400;
   font-family: 'Ubuntu-R' !important;
 }
+.commentSection .my-dots-blue{
+  bottom: 0px;
+}
 .commentSection .commentText{
   font-family: 'Ubuntu-RI';
 }
@@ -306,6 +337,10 @@ nav .row{
   background: rgba(27, 96, 182, 0.05);
   padding-top: 36px;
   padding-bottom: 36px;
+}
+.commentsArrows{
+  position: relative;
+  top: -150px;
 }
 .requisites,
 .contacts .contacts-black{
@@ -316,7 +351,7 @@ nav .row{
 }
 .contactsP1{
   margin-bottom: 21px;
-  min-width: 202px;
+  min-width: 220px;
 }
 .contactsP2{
   margin-bottom: 15px;
@@ -439,6 +474,21 @@ nav .row{
 }
 .mobileNavRow{
   height: 69px;
+}
+.modal-buttons button{
+  width: 100%;
+  height: 44px;
+  color: #1B60B6;
+  font-size: 14px;
+  font-weight: 500;
+  background: #fff;
+  border-radius: 8px;
+  border: 1px solid #1B60B6;
+  margin-bottom: 21px;
+}
+.modal-buttons .active{
+  background: #1B60B6;
+  color: #fff;
 }
 /*белые точки слайдера*/
 .my-dots {
@@ -601,6 +651,13 @@ nav .row{
 }
 .office-address{
   font-family: 'Ubuntu-M';
+}
+.personalInformation a{
+  color: #D80000; 
+}
+.personalInformation{
+  color: #061C2E;
+  font-size: 10px;
 }
 .phoneImg {
   float: left;
@@ -812,6 +869,9 @@ nav .row{
   line-height: 15px;
   font-size: 12px;
 }
+#logInModal .signInForm{
+  display: none;
+}
 #navbarNav {
   position: absolute;
   top: 70px;
@@ -825,6 +885,9 @@ nav .row{
 }
 #navbarNav hr{
   border-bottom: 1px solid #124E7D;
+}
+#signInModal .logInForm{
+  display: none;
 }
 #toTop {
   width: 100px;

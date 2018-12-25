@@ -53,12 +53,6 @@
 					<img src="img/icons/wRight.png" class="next1" alt="вперед">
 				</div>
 			</div>
-			<div class="row justify-content-between headSliderarrows d-lg-flex d-none">
-				<div class="col-auto prev1">
-				</div>
-				<div class="col-auto next1">
-				</div>
-			</div>
 		</div>
 	</section>
 	<section>
@@ -230,10 +224,10 @@
 				</div>
 			</div>
 			<div class="row justify-content-between bestsellersArrows d-lg-flex d-none">
-				<div class="col-auto">
+				<div class="col-auto arrow-leftDiv">
 					<img src="img/icons/bLeft.png" class="prev2" alt="назад">
 				</div>
-				<div class="col-auto">
+				<div class="col-auto arrow-rightDiv">
 					<img src="img/icons/bRight.png" class="next2" alt="вперед">
 				</div>
 			</div>
@@ -321,6 +315,14 @@
 							</p>
 						</div>
 					</div>
+				</div>
+			</div>
+			<div class="row justify-content-between commentsArrows d-lg-flex d-none">
+				<div class="col-auto arrow-leftDiv">
+					<img src="img/icons/bLeft.png" class="prev3" alt="назад">
+				</div>
+				<div class="col-auto arrow-rightDiv">
+					<img src="img/icons/bRight.png" class="next3" alt="вперед">
 				</div>
 			</div>
 		</div>

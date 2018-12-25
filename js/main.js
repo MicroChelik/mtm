@@ -26,10 +26,10 @@ $(document).ready(function() {
 		infinite: true,
 		slidesToShow: 4,
 		slidesToScroll: 1,
-		dots: false,
-		dotsClass: "my-dots",
-		prevArrow: '.prev2',
-		nextArrow: '.next2',
+		dots: true,
+		dotsClass: "my-dots-blue",
+		prevArrow: '.prev5',
+		nextArrow: '.next5',
 		responsive: [
 			{
 				breakpoint: 960,
@@ -37,8 +37,8 @@ $(document).ready(function() {
 					infinite: true,
 					slidesToShow: 1,
 					slidesToScroll: 1,
-					prevArrow: '.prev2',
-					nextArrow: '.next2'
+					prevArrow: '.prev5',
+					nextArrow: '.next5'
 				}
 			}
 		]
@@ -77,10 +77,10 @@ $(document).ready(function() {
 		infinite: true,
 		slidesToShow: 1,
 		slidesToScroll: 1,
-		dots: false,
-		dotsClass: "my-dots",
-		prevArrow: '.prev2',
-		nextArrow: '.next2',
+		dots: true,
+		dotsClass: "my-dots-blue",
+		prevArrow: '.prev3',
+		nextArrow: '.next3',
 		responsive: [
 			{
 				breakpoint: 960,
@@ -88,8 +88,8 @@ $(document).ready(function() {
 					infinite: true,
 					slidesToShow: 1,
 					slidesToScroll: 1,
-					prevArrow: '.prev2',
-					nextArrow: '.next2'
+					prevArrow: '.prev3',
+					nextArrow: '.next3'
 				}
 			}
 		]
@@ -123,8 +123,8 @@ $(document).ready(function() {
 		slidesToScroll: 1,
 		dots: false,
 		dotsClass: "my-dots",
-		prevArrow: '.prev2',
-		nextArrow: '.next2',
+		prevArrow: '.prev4',
+		nextArrow: '.next4',
 		responsive: [
 			{
 				breakpoint: 960,
@@ -132,8 +132,8 @@ $(document).ready(function() {
 					infinite: true,
 					slidesToShow: 1,
 					slidesToScroll: 1,
-					prevArrow: '.prev2',
-					nextArrow: '.next2'
+					prevArrow: '.prev4',
+					nextArrow: '.next4'
 				}
 			}
 		]
@@ -151,6 +151,27 @@ $(document).ready(function() {
 		$('.product-description').removeClass('active');
 		$('.product-specifications-text').css('display', 'block');;
 		$('.product-description-text').css('display', 'none');
+	});
+
+	$('.signIn').click(function(){
+		$(this).addClass('active');
+		$('.logIn').removeClass('active');
+		$('.signInForm').css('display', 'block');;
+		$('.logInForm').css('display', 'none');
+	});
+	$('.logIn').click(function(){
+		$(this).addClass('active');
+		$('.signIn').removeClass('active');
+		$('.logInForm').css('display', 'block');;
+		$('.signInForm').css('display', 'none');
+	});
+	$('.logInText').click(function(){
+		$('.logIn').addClass('active');
+		$('.signIn').removeClass('active');
+	});
+	$('.signInText').click(function(){
+		$('.signIn').addClass('active');
+		$('.logIn').removeClass('active');
 	});
 
 	$(function() {
