@@ -18,7 +18,7 @@
 					</div>
 					<div class="collapse" id="main-section-1">
 						<ul>
-							<li>Подраздел раздел 1</li>
+							<li class="store-sections-li-active">Подраздел раздел 1</li>
 							<li>Подраздел раздел 2</li>
 							<li>Подраздел раздел 3</li>
 						</ul>

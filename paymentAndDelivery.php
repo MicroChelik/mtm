@@ -1,11 +1,11 @@
 <?php
 	include('htmlHead.php');
 ?>
-<body id="paymentAndDeliveryPage">	
+<body class="paymentAndDeliveryPage">	
 	<?php
 		include('nav.php');
 	?>
-	<section>
+	<section class="paymentAndDeliveryPageSection">
 		<div class="container">
 			<div class="row">
 				<div class="col-12">

@@ -182,6 +182,13 @@ nav .active{
 nav .row{
   padding-top: 20px;
 }
+.aboutCompanyPage .socialImgs{
+  margin-bottom: 38px;
+  margin-top: 10px;
+}
+.aboutCompanyPage .my-dots-blue{
+  bottom: -50px;
+}
 .aboutCompany{
   background-image: url('../img/background/headSlider.png'); 
   background-repeat: no-repeat;
@@ -197,6 +204,37 @@ nav .row{
   font-size: 14px;
   width: 130px !important;
   height: 30px !important; 
+}
+.aboutCompanySection h2{
+	margin-top: 49px;
+}
+.aboutCompanySection .redBtn{
+  width: 130px;
+  height: 30px;
+  font-size: 14px;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-top: 38px;
+}
+.advantagesSection{
+  padding-bottom: 60px;
+}
+.advantagesSection h2{
+  margin-top: 36px;
+  margin-bottom: 47px;
+} 
+.advantageSlider img{
+  margin: auto;
+}
+.advantageSlider p{
+  margin: auto;
+}
+.advantageSlider .d-flex{
+  height: 100px;
+}
+.advImg4,
+.advImg3{
+  padding-right: 20px;
 }
 .animated-modal a{
   width: 100%;
@@ -223,25 +261,98 @@ nav .row{
   position: relative;
   right: -40px;
 }
+.basketPageSection{
+  padding-bottom: 200px;
+}
+.basketPage .buttons{
+  margin-top: 46px;
+}
+.checkoutPage .cardValue,
+.basketPage .cardValue{
+  width: 107px;
+  height: 35px;
+}
+.checkoutPage .cardValue button,
+.basketPage .cardValue button{
+  width: 35px;
+}
+.checkoutPage .cardValue input,
+.basketPage .cardValue input{
+  height: 34px;
+  width: 35px;
+}
+.basketPage .whiteBtn{
+  width: 200px;
+  height: 39px;
+  color: #828282;
+  font-size: 14px;
+  background: #fff;
+  font-weight: 500;
+}
+.basketPage .greyBtn{
+  width: 200px;
+  height: 39px;
+  color: #000;
+  background: #BDBDBD;
+  font-size: 14px;
+  font-weight: 500;
+}
+.basket-column-title p{
+  font-weight: 500;
+  font-size: 12px;
+  color: #C4C4C4;
+  margin-bottom: 1px;
+  font-family: 'Roboto-Medium';
+}
+.basket-column-title-value{
+  margin-left: 4%;
+}
+.basket-column-title-sum{
+  margin-left: 3%;
+}
+.basket-column-title-sum p{
+  padding-left: 5px;
+}
+.basketPage .basket-product-price-div{
+  margin-left: 9%;
+}
+.basketPage .cardValueDiv{
+  margin-left: 2%;
+  padding-top: 35px;
+}
+.basket-product-name,
+.basket-product-price,
+.basket-product-sum{
+  margin-top: 29px;
+}
 .bestsellersArrows{
   position: relative;
   top: -175px;
 }
-.searchPage .aboutThisProduct{
-  margin-bottom: 27px;
+.basket-product-name{
+  max-width: 353px;
+  line-height: 18px;
+  font-size: 14px;
+  color: #000000;
+  font-family: 'Roboto-Regular';
 }
-.advantageSlider img{
-  margin: auto;
+.basket-product-sum,
+.basket-product-price{
+  font-family: 'Roboto-Regular';
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  font-weight: 900;
 }
-.advantageSlider p{
-  margin: auto;
+.basket-product-delete{
+  font-size: 12px;
+  text-decoration-line: underline;
+  color: #4F4F4F;
+  margin-top: 21px;
+  cursor: pointer;
 }
-.advantageSlider .d-flex{
-  height: 100px;
-}
-.advImg4,
-.advImg3{
-  padding-right: 20px;
+.buttons{
+  margin-bottom: 80px;
 }
 .bestsellers .blueBtn{
   background: #1B60B6;
@@ -250,9 +361,12 @@ nav .row{
   height: 38px;
   color: #fff;
 }
-.bestsellers-container{
+.bestsellers-section h2{
+  margin-top: 48px;
+}
+.bestsellers-section{
   background: rgba(216, 0, 0, 0.05);
-  padding-bottom: 116px;
+  padding-bottom: 70px;
 }
 .brandLogo1{
   width: 119px;
@@ -315,6 +429,121 @@ nav .row{
   color: #1B60B6;
   margin-bottom: 0;
 }
+.checkoutPageSection{
+  padding-bottom: 80px;
+}
+.checkoutPageSection label{
+  margin: 0;
+  line-height: 29px;
+  font-size: 24px;
+  color: #000000;
+}
+.checkoutPageSection .form-row{
+  padding-left: 20px;
+  padding-top: 60px;
+}
+.checkoutPageSection .form-control{
+  margin-bottom: 46px;
+}
+.checkoutPageSection .from-row input{
+  height: 42px;
+}
+.checkoutPageSection .greyBtn{
+  width: 100%;
+  height: 33px;
+  background: #C4C4C4;
+  color: #000;
+  border: 0;
+  margin-top: 27px;
+}
+.checkoutPageSection .product-name{
+  line-height: 18px;
+  font-size: 14px;
+  color: #000000;
+  margin-top: 29px;
+}
+.checkoutPageSection .productInBasketCheckoutLast .availability{
+  margin-top: 29px;
+}
+.checkoutPageSection .availability{
+  line-height: normal;
+  font-size: 13px;
+  color: #828282;
+}
+.checkoutPageSection .cardValue{
+  margin-top: 36px;
+}
+.checkoutPageSection .productPrice{
+  margin-top: 39px;
+  line-height: normal;
+  font-size: 24px;
+  color: #000000;
+}
+.checkoutPageSection .closeImg{
+  width: 23px;
+  height: 23px;
+  margin-left: auto;
+  cursor: pointer;
+}
+.checkoutPageSection .title{
+  line-height: normal;
+  font-size: 24px;
+  color: #000000;
+  margin-bottom: 11px;
+}
+.checkoutPageSection .title p{
+  margin-bottom: 6px;
+  margin-top: 6px;
+}
+.checkoutPage .title{
+ background: #CDCDCD;
+}
+.checkoutPage .delivery{
+  width: 241px;
+  height: 132px;
+  display: flex;
+  border: 1px solid #828282;
+}
+.checkoutPage .delivery img{
+  margin: auto;
+}
+.checkoutPage .deliveryChoice{
+  width: 186px;
+  height: 212px;
+  border: 1px solid #828282;
+  margin-bottom: 30px;
+}
+.checkout-sum p{
+  line-height: normal;
+  font-size: 14px;
+  color: #000000;
+  margin-bottom: 14px;
+}
+.checkout-grey-text{
+  color: #828282 !important;
+}
+.checkout-price{
+  font-size: 24px !important;
+}
+.checkout-sum hr{
+  margin: 0;
+  margin-bottom: 14px;
+}
+.checkout-sum .blackHr{
+  border: none;
+  color: red; 
+  background-color: #828282; 
+  height: 2px; 
+}
+.checkout-sum{
+  border: 1px solid #828282;
+  padding-left: 28px;
+  padding-bottom: 43px;
+  padding-top: 32px;
+  padding-right: 14px;
+  font-size: 14px;
+  line-height: normal;
+}
 .clientName{
   line-height: 18px;
   font-size: 14px;
@@ -327,8 +556,15 @@ nav .row{
   font-weight: 400;
   font-family: 'Ubuntu-R' !important;
 }
+.cleanBlock{
+  text-align: right;
+}
+.commentSection h2{
+  margin-top: 61px;
+  margin-bottom: 35px;
+}
 .commentSection .my-dots-blue{
-  bottom: 0px;
+  bottom: -13px;
 }
 .commentSection .commentText{
   font-family: 'Ubuntu-RI';
@@ -342,6 +578,17 @@ nav .row{
   position: relative;
   top: -150px;
 }
+.contactsPage h2{
+  margin-bottom: 30px;
+}
+.contactsPageForm h2{
+  margin-top: 0;	
+}
+.contactsPageForm .redBtn{
+  width: 100%;
+  height: 44px;
+  border-radius: 8px;
+}
 .requisites,
 .contacts .contacts-black{
   color: #061C2E;
@@ -354,10 +601,10 @@ nav .row{
   min-width: 220px;
 }
 .contactsP2{
-  margin-bottom: 15px;
+  margin-bottom: 21px;
 }
 .contactsP3{
-  margin-bottom: 20px;
+  margin-bottom: 21px;
 }
 .dairyFarmReconstructionPage .mainContainer p{
   font-size: 14px;
@@ -368,6 +615,7 @@ nav .row{
   line-height: 23px;
   font-size: 18px;
   color: #124E7D;
+  margin-bottom: 20px;
 }
 .dairyFarmReconstructionPage .buttons .redBtn{
   width: 164px;
@@ -409,10 +657,11 @@ nav .row{
 .formSection{
   background: linear-gradient(79.99deg, rgba(27, 96, 182, 0.15) 36.53%, rgba(0, 102, 255, 0.05) 100.7%);
   min-height: 385px;
-  margin-top: 60px;
+  margin-top: 30px;
   margin-bottom: 60px;
 }
-.formSection .form-control{
+.formSection .form-control,
+.contactsPage .form-control{
   border: 1px solid rgba(0, 102, 255, 0.15);
   border-radius: 8px;
   margin-bottom: 11px;
@@ -435,6 +684,10 @@ nav .row{
 }
 .logoMtm{
   padding-top: 4px;
+}
+.map{
+  margin-bottom: 80px;
+  margin-top: 40px;
 }
 .mailImg{
   width: 9.56px;
@@ -561,7 +814,7 @@ nav .row{
 /*синие точки слайдера*/
 .my-dots-blue {
   position: absolute;
-  bottom: -50px;
+  bottom: -80px;
   display: block;
   width: 100%;
   padding: 0;
@@ -652,12 +905,71 @@ nav .row{
 .office-address{
   font-family: 'Ubuntu-M';
 }
+.paymentAndDeliveryPageSection p{
+  font-size: 14px;
+  line-height: 16px;	
+  color: #061C2E;
+}
+.paymentAndDeliveryPageSection{
+  height: 800px;
+}
 .personalInformation a{
   color: #D80000; 
 }
 .personalInformation{
   color: #061C2E;
   font-size: 10px;
+}
+.personalPageSection{
+  padding-bottom: 450px;
+}
+.personalPageSection h2{
+  color: #4F4F4F;
+  margin-bottom: 30px;
+}
+.personalPageSection h3{
+  line-height: 25px;
+  font-size: 18px;
+  color: #000000;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.personalPageSection a{
+  line-height: 19px;
+  font-size: 14px;
+  text-decoration-line: underline;
+  color: #4F4F4F;
+  display: block;
+}
+.personalPageSection .greyBtn{
+  width: 100%;
+  min-width: 100px;
+  height: 28px;
+  background: #C4C4C4;
+  color: #000;
+  border: 0;
+}
+.personalInfo p{
+  margin: 0;
+  line-height: normal;
+  font-size: 14px;
+  color: #000000;
+}
+.personalInfo input{
+  width: 100%
+  height: 20.5px;
+  border: 1px solid #4F4F4F;
+}
+.personalInfo{
+  margin-bottom: 9px;
+}
+.personalOrders a,
+.personalOrders p{
+  color: #000000 !important;
+  margin: 0;
+}
+.personalOrders .backToCatalog{
+  margin-top: 15px;
 }
 .phoneImg {
   float: left;
@@ -685,10 +997,61 @@ nav .row{
   height: 21px;
   margin: auto;
 }
+.sumOfProductsDescription{
+  width: 85px;
+  text-align: right;
+  font-size: 18px;
+  font-weight: 600;
+  color: #000000;
+  line-height: normal;
+  height: 30px;
+}
+.sumOfProductsDescription p{
+  margin-top: 5px !important;
+}
+.sumOfProductsDescription p,
+.sumOfProductsSum p{
+  margin: 0;
+}
+.sumOfProductsSum{
+  font-size: 24px;
+  font-weight: 900;
+  color: #000000;
+  line-height: normal;
+  height: 30px;
+  margin-left: 17px;
+}
 .product-description-text,
 .product-specifications-text{
   background: rgba(0, 102, 255, 0.05);
   border-radius: 0px 8px 8px 8px;
+}
+.product-description p,
+.product-specifications p{
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+.product-description-text{
+  line-height: 18px;
+  color: #061C2E;
+  padding-top: 36px;
+}
+.product-description-text p{
+  margin-bottom: 30px;
+}
+.product-specifications-text{
+  line-height: 16px;
+  font-size: 16px;
+  padding-top: 29px;
+}
+.product-specifications-text p{
+  margin-bottom: 0;
+  height: 36px;
+  display: flex;
+  align-items: center;
+}
+.product-specifications-text-red{
+  background: rgba(216, 0, 0, 0.05);
 }
 .productsNumber{
   width: 26px;
@@ -711,6 +1074,18 @@ nav .row{
 }
 .product-specifications-text{
   display: none;
+}
+.productInBasketCheckout{
+  margin-bottom: 10px;
+}
+.sumOfProducts,
+.productInBasketCheckout,
+.productInBasket{
+  border: 1px solid #E0E0E0;
+  height: 135px;
+}
+.productInBasket .row{
+  height: 135px;
 }
 .redBtn{
   width: 128px;
@@ -748,10 +1123,19 @@ nav .row{
   border: 1px solid #D80000;
   border-radius: 8px;
 }
+.requisites img{
+  margin-right: 5px;
+}
+.requisites p{
+  margin-top: 1rem;
+}
 .search-pagination p{
   font-size: 14px;
   color: #061C2E;
   margin-bottom: 4px;
+}
+.searchPage .aboutThisProduct{
+  margin-bottom: 27px;
 }
 .searchResults{
   margin-bottom: 90px;
@@ -767,6 +1151,12 @@ nav .row{
 }
 .searchSection .row{
   height: 96px;
+}
+.services-main-text{
+  margin-bottom: 36px;
+}
+.servicesPage h2{
+	margin-bottom: 33px;
 }
 .servicesPage .blueBtn{
   background: #1B60B6;
@@ -792,6 +1182,13 @@ nav .row{
 .socialImgs img{
   width: 26.1px;
   height: 26.1px;
+}
+.sorting span{
+  padding-left: 40px;
+  cursor: pointer;
+}
+.sorting span img{ 
+  padding-left: 5px;
 }
 .sorting{
   font-family: 'Roboto-Regular';
@@ -823,6 +1220,10 @@ nav .row{
 }
 .store-sections ul{
   padding-left: 17px;
+  margin-bottom: 2px;
+}
+.store-sections .store-sections-li-active{
+  color: #D80000;
 }
 .store-sections .store-section-main{ 
   width: 271px;
@@ -858,6 +1259,15 @@ nav .row{
   height: 38px;
   border-radius: 8px;
   margin-top: 11px;
+}
+.thisProductSection{
+  padding-bottom:70px; 
+}
+.thisStoreSection-to-section h2{
+  margin-bottom: 31px;
+}
+.thisStoreSubsection .card{
+  margin-bottom: 23px; 
 }
 .way{
   margin-bottom: 8px !important;
@@ -914,6 +1324,9 @@ nav .row{
   .brandsSlider img{
     margin: auto;
   }
+  .brands-section h2{
+  	margin-bottom: 33px;
+  }
   .commentsSlider {
     font-size: 14px;
   }
@@ -922,6 +1335,9 @@ nav .row{
     padding-right: 22px;
     height: 348px;
   }
+  .headSlider .my-dots{
+  	bottom: -50px;
+  }
   .formSection{
     background: #fff;
     margin-top: 0;
@@ -929,6 +1345,12 @@ nav .row{
   .mobileFooter .redBtn{
     margin-bottom: 24px;
     border-radius: 8px;
+  }
+  .store-sections{
+  	margin-bottom: 1rem;
+  }
+  .store-section-main{
+  	width: 100% !important;
   }
   #toTop {
     width: 45px;
@@ -939,3 +1361,26 @@ nav .row{
     cursor: pointer;
   }
 }
+@media (min-width: 1200px){
+  .basketPageSection .container {
+    max-width: 1170px;
+  }
+  /*.container{
+  	max-width: 1140px;
+  }*/
+}
+/*@media (min-width: 992px){
+  .basketPageSection .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 768px){
+  .basketPageSection .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 576px){
+  .basketPageSection .container {
+    max-width: 540px;
+  }
+}*/

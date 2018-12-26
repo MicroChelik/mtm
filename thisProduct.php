@@ -5,7 +5,7 @@
 	<?php
 		include('nav.php');
 	?>
-	<section>
+	<section class="thisProductSection">
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
@@ -99,11 +99,11 @@
 					</p>
 				</div>
 				<div class="col-11 product-specifications-text">
-					<div class="row">
-						<div class="col-lg-5">
+					<div class="row align-items-center">
+						<div class="col-lg-5 product-specifications-text-red">
 							<p>Характеристика 1</p>
 						</div>
-						<div class="col-lg-7">
+						<div class="col-lg-7 product-specifications-text-red">
 							<p>38 Ач</p>
 						</div>
 						<div class="col-lg-5">
@@ -112,10 +112,10 @@
 						<div class="col-lg-7">
 							<p>прямая</p>
 						</div>
-						<div class="col-lg-5">
+						<div class="col-lg-5 product-specifications-text-red">
 							<p>Характеристика 1</p>
 						</div>
-						<div class="col-lg-7">
+						<div class="col-lg-7 product-specifications-text-red">
 							<p>12 В</p>
 						</div>
 						<div class="col-lg-5">
@@ -124,10 +124,10 @@
 						<div class="col-lg-7">
 							<p>350 А</p>
 						</div>
-						<div class="col-lg-5">
+						<div class="col-lg-5 product-specifications-text-red">
 							<p>Характеристика 1</p>
 						</div>
-						<div class="col-lg-7">
+						<div class="col-lg-7 product-specifications-text-red">
 							<p>187x127x225 мм</p>
 						</div>
 						<div class="col-lg-5">

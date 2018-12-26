@@ -45,11 +45,13 @@
 				<p>+7 (3412) 48-73-83</p>
 			</div>
 			<div class="col-lg-auto">
-				<div class="productCart d-flex">
-					<img src="img/icons/cart.png">
-					<div class="productsNumber d-flex m-auto">
-						<p class="m-auto">2</p>
-					</div>
+				<div>
+					<a href="basketPage.php" class="d-flex productCart">
+						<img src="img/icons/cart.png">
+						<div class="productsNumber d-flex m-auto">
+							<p class="m-auto">2</p>
+						</div>
+					</a>
 				</div>
 			</div>
 		</div>

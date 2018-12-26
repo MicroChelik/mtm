@@ -5,7 +5,7 @@
 	<?php
 		include('nav.php');
 	?>
-	<section>
+	<section class="thisStoreSection-to-section">
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
@@ -13,7 +13,9 @@
 				</div>
 				<div class="col-12">
 					<p class="sorting">
-						Сортировать: по цене по популярности
+						Сортировать:
+						<span class="sorting-by-price">по цене<img src="img/icons/bottom.png"></span> 
+						<span class="sorting-by-popularity">по популярности<img src="img/icons/bottom.png"></span>
 					</p>
 				</div>
 				<div class="col-12">

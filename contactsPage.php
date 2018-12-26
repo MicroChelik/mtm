@@ -8,7 +8,7 @@
 	<section>
 		<div class="container">
 			<div class="row">
-				<div class="col-12">
+				<div class="col-12 contactsPageContacts">
 					<h2>Контакты</h2>
 				</div>
 				<div class="col-lg-3 contacts">
@@ -37,11 +37,10 @@
 						<img src="img/icons/4.png">
 					</div>
 					<a href="" class="requisites">
-						<img src="">
-						<p>Скачать реквизиты компании</p>
+						<p><img src="img/icons/download.png">Скачать реквизиты компании</p>
 					</a>
 				</div>
-				<div class="col-lg-8 offset-lg-1">
+				<div class="col-lg-8 offset-lg-1 contactsPageForm">
 					<h2>Напишите нам</h2>
 					<form>								
 						<div class="form-row">

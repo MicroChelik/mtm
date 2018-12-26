@@ -86,7 +86,7 @@
 										</div>
 									</div>
 									<div class="col-12 d-flex">
-										<button type="submit" class="redBtn mx-auto">Войти</button>
+										<a href="personalPage.php" class="d-flex"><button type="submit" class="redBtn mx-auto">Войти</button></a>
 									</div>
 								</div>
 							</form>
@@ -109,7 +109,7 @@
 									</p>
 									</div>
 									<div class="col-12 d-flex">
-										<button type="submit" class="redBtn mx-auto">Зарегистрироваться</button>
+										<a href="personalPage.php" class="d-flex"><button type="submit" class="redBtn mx-auto">Зарегистрироваться</button></a>
 									</div>
 									<p>Укажите Email, и мы пришлем вам на почту сообщение для подтверждения</p>
 								</div>
@@ -139,7 +139,7 @@
 									<p class="personalInformation">Нажимая на кнопку, вы даете свое согласие на обработку<br class="d-none d-lg-block">персональных данных. <a href="" target="blank" rel="noopener noreferrer">Узнать больше</a></p>
 									</div>
 									<div class="col-12 d-flex">
-										<button type="submit" class="redBtn mx-auto">Войти</button>
+										<a href="personalPage.php" class="d-flex"><button type="submit" class="redBtn mx-auto">Войти</button></a>
 									</div>
 								</div>
 							</form>
@@ -162,7 +162,7 @@
 									</p>
 									</div>
 									<div class="col-12 d-flex">
-										<button type="submit" class="redBtn mx-auto">Зарегистрироваться</button>
+										<a href="personalPage.php" class="d-flex"><button type="submit" class="redBtn mx-auto">Зарегистрироваться</button></a>
 									</div>
 									<p>Укажите Email, и мы пришлем вам на почту сообщение для подтверждения</p>
 								</div>
@@ -181,7 +181,7 @@
 	<div class="container">
 		<div class="row justify-content-between">
 			<div class="col-auto">
-				<a href="store.php">Интернет - магазин</a>
+				<a href="store.php">Интернет - магазин</a><img src="img/icons/bottom.png" class="pl-1">
 			</div>
 			<div class="col-auto">
 				<a href="index.php" class="active">Главная</a>
@@ -218,10 +218,10 @@
 			<div class="collapse navbar-collapse" id="navbarNav">
 		 		<ul class="navbar-nav">
 		 			<li class="nav-item nav-item-first">
- 						<a class="nav-link" href="store.php"><p>Интернет - магазин</p><span class="sr-only">(current)</span></a>
+ 						<a class="nav-link" href="store.php"><p>Интернет - магазин</p></a>
  					</li>
  					<li class="nav-item">
- 						<a class="nav-link" href="index.php"><p>Главная</p></a>
+ 						<a class="nav-link" href="index.php"><p>Главная</p><span class="sr-only">(current)</span></a>
  					</li>
  					<li class="nav-item">
  						<a class="nav-link" href="aboutCompanyPage.php"><p>О компании</p></a>

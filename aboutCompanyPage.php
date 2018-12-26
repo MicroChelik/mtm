@@ -47,18 +47,6 @@
 					<img src="img/buildingObjects/1.png">
 					<p>Пермский край, строительство молочно товарной фермы на 400 голов КРС с молочным блоком</p>
 				</div>
-				<div class="col-lg-3 col-12">
-					<img src="img/buildingObjects/2.png">
-					<p>Башкортостан строительство МТФ на 526 голов с ДМБ и доильным залом Ёлочка 2х14</p>
-				</div>
-				<div class="col-lg-3 col-12">
-					<img src="img/buildingObjects/3.png">
-					<p>Татарстан, строительство комплекса на 800 голов</p>
-				</div>
-				<div class="col-lg-3 col-12">
-					<img src="img/buildingObjects/4.png">
-					<p>Башкортостан, строительство коровника на 400 голов с ДМБ</p>
-				</div>
 			</div>
 			<div class="row justify-content-between bestsellersArrows d-lg-flex d-none">
 				<div class="col-auto arrow-leftDiv">
