@@ -2,7 +2,9 @@
 	<div class="container">
 		<div class="row align-items-center">
 			<div class="col-lg-auto">
-				<img src="img/logos/mtm.png" class="logoMtm">
+				<a href="index.php">
+					<img src="img/logos/mtm.png" class="logoMtm">
+				</a>
 			</div>
 			<div class="col-lg-5">
 				<a href="searchPage.php">
@@ -10,7 +12,9 @@
 				</a>
 			</div>
 			<div class="col-lg-auto">
-				<button class="redBtn"><a data-fancybox data-animation-duration="700" data-src="#callBackModal" href="javascript:;">Обратный звонок</a></button>
+				<a data-fancybox data-animation-duration="700" data-src="#callBackModal" href="javascript:;">
+					<button class="redBtn">Обратный звонок</button>
+				</a>
 			</div>
 			<div style="display: none;" id="callBackModal" class="animated-modal">
 				<div class="card">

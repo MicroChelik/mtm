@@ -9,7 +9,9 @@
 					<img src="img/icons/3.png">
 					<img src="img/icons/4.png">
 				</div>
-				<button class="redBtn">Запросить прайс</button>
+				<a data-fancybox data-animation-duration="700" data-src="#getPriceModal" href="javascript:;">
+					<button class="redBtn">Запросить прайс</button>
+				</a>
 			</div>
 			<div class="col-lg-2 offset-lg-1">
 				<p class="footerTitle">МЕНЮ</p>
@@ -88,8 +90,12 @@
 				<p>zavodmtm@mail.ru</p>
 			</div>
 			<div class="col-12 d-flex justify-content-around">
-				<button class="redTransBtn">Запросить прайс</button>
-				<button class="redBtn">Обратный звонок</button>
+				<a data-fancybox data-animation-duration="700" data-src="#getPriceModal" href="javascript:;">
+					<button class="redTransBtn">Запросить прайс</button>
+				</a>
+				<a data-fancybox data-animation-duration="700" data-src="#callBackModal" href="javascript:;">
+					<button class="redBtn">Обратный звонок</button>
+				</a>
 			</div>
 			<div class="col-12">
 				<p>

@@ -96,6 +96,10 @@ button{
 button a{
   color: inherit;
 }
+button a:hover{
+  color: inherit;
+  text-decoration: none;
+}
 footer{
   height: 353px;
   padding-top: 40px;
@@ -183,8 +187,8 @@ nav .row{
   padding-top: 20px;
 }
 .aboutCompanyPage .socialImgs{
-  margin-bottom: 38px;
-  margin-top: 10px;
+  /*margin-bottom: 38px;
+  margin-top: 10px*/;
 }
 .aboutCompanyPage .my-dots-blue{
   bottom: -50px;
@@ -216,6 +220,9 @@ nav .row{
   margin-left: auto;
   margin-top: 38px;
 }
+.aboutCompanySection .socialImgs{
+  margin-bottom: 1rem;
+}
 .advantagesSection{
   padding-bottom: 60px;
 }
@@ -228,6 +235,9 @@ nav .row{
 }
 .advantageSlider p{
   margin: auto;
+  text-align: center;
+  max-width: 190px;
+  font-size: 14px;
 }
 .advantageSlider .d-flex{
   height: 100px;
@@ -367,6 +377,9 @@ nav .row{
 .bestsellers-section{
   background: rgba(216, 0, 0, 0.05);
   padding-bottom: 70px;
+}
+.bottomArrow{
+  width: 15px;
 }
 .brandLogo1{
   width: 119px;
@@ -902,6 +915,57 @@ nav .row{
 .navbar-collapse .navbar-nav{
   margin-left: 27px;
 }
+.navLiArrow{
+  position: absolute;
+  right: 3%;
+}
+.nav-store-sections li{
+  width: 271px;
+  height: 37px;
+  background: #124E7D;
+  border-radius: 8px;
+  border: 1px solid #FFFFFF;
+  font-weight: 500;
+  padding-left: 17px;
+  padding-top: 9px;
+  line-height: normal;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.nav-store-sections li:hover{
+  background: #D80000;
+}
+.nav-store-sections li:hover > ul{
+  display: block;
+}
+.nav-store-sections{
+  color: #fff;
+  list-style: none;
+  z-index: 11;
+  position: absolute;
+  display: none;
+  padding-left: 0;
+  left: -40px;
+  top: 35px;
+}
+.nav-store-sections-to-sections{
+  position: relative;
+  color: #124E7D;
+  list-style: none;
+  z-index: 11;
+  padding-left: 0;
+  top: -105%;
+  right: -100%;
+  background: #fff !important;
+  display: none;
+}
+.nav-store-sections-to-sections li{
+  background: #fff;
+  transition: all 0.3s ease;
+}
+.nav-store-sections-to-sections li:hover{
+  color: #fff;
+}
 .office-address{
   font-family: 'Ubuntu-M';
 }
@@ -911,7 +975,7 @@ nav .row{
   color: #061C2E;
 }
 .paymentAndDeliveryPageSection{
-  height: 800px;
+  min-height: 800px;
 }
 .personalInformation a{
   color: #D80000; 
@@ -956,7 +1020,7 @@ nav .row{
   color: #000000;
 }
 .personalInfo input{
-  width: 100%
+  width: 100%;
   height: 20.5px;
   border: 1px solid #4F4F4F;
 }
@@ -1251,9 +1315,6 @@ nav .row{
 .store-sections .active{
   background: #D80000 !important;
 }
-.store-section-main{
-
-}
 .thisProduct .aboutThisProduct .redBtn{
   width: 100%;
   height: 38px;
@@ -1268,6 +1329,11 @@ nav .row{
 }
 .thisStoreSubsection .card{
   margin-bottom: 23px; 
+}
+.topArrow{
+  display: none;
+  width: 15px;
+  height: 7px;
 }
 .way{
   margin-bottom: 8px !important;
@@ -1321,6 +1387,15 @@ nav .row{
   .about-company-text{
     font-size: 14px;
   }
+  .animated-modal{
+    max-width: 100%;
+  }
+  .buttons {
+    margin-bottom: 0px;
+  }
+  .buttons .col-auto{
+    margin-bottom: 1rem;
+  }
   .brandsSlider img{
     margin: auto;
   }
@@ -1341,10 +1416,30 @@ nav .row{
   .formSection{
     background: #fff;
     margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  .lastServiceTheme {
+    margin-bottom: 0;
+   }
+  .map{
+  	margin-bottom: 1rem;
+  	margin-top: 1rem;
   }
   .mobileFooter .redBtn{
     margin-bottom: 24px;
     border-radius: 8px;
+  }
+  .mobileNav .redBtn{
+  	font-size: 13px;
+  }
+  .personalInformation{
+  	text-align: center;
+  }
+  .personalPage .greyBtn{
+  	font-size: 11px;
+  }
+  .personalPageSection{
+  	padding-bottom: 3rem;
   }
   .store-sections{
   	margin-bottom: 1rem;

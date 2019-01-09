@@ -18,7 +18,7 @@
 				</div>
 			</div>
 			<div class="row servicesRow">
-				<div class="col-lg-3 col-12">
+				<div class="col-lg-3 col-12 service">
 					<div class="card">
 						<img class="card-img-top" src="img/services/1.png" alt="Картинка услуги">
 						<div class="card-body">
@@ -27,7 +27,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3 col-12">
+				<div class="col-lg-3 col-12 service">
 					<div class="card">
 						<img class="card-img-top" src="img/services/2.png" alt="Картинка услуги">
 						<div class="card-body">
@@ -36,7 +36,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3 col-12">
+				<div class="col-lg-3 col-12 service">
 					<div class="card">
 						<img class="card-img-top" src="img/services/3.png" alt="Картинка услуги">
 						<div class="card-body">
@@ -47,7 +47,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3 col-12">
+				<div class="col-lg-3 col-12 service">
 					<div class="card">
 						<img class="card-img-top" src="img/services/4.png" alt="Картинка услуги">
 						<div class="card-body">
@@ -56,7 +56,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3 col-12">
+				<div class="col-lg-3 col-12 service">
 					<div class="card">
 						<img class="card-img-top" src="img/services/1.png" alt="Картинка услуги">
 						<div class="card-body">
@@ -65,7 +65,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3 col-12">
+				<div class="col-lg-3 col-12 service">
 					<div class="card">
 						<img class="card-img-top" src="img/services/2.png" alt="Картинка услуги">
 						<div class="card-body">
@@ -74,7 +74,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3 col-12">
+				<div class="col-lg-3 col-12 service">
 					<div class="card">
 						<img class="card-img-top" src="img/services/3.png" alt="Картинка услуги">
 						<div class="card-body">
@@ -83,7 +83,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3 col-12">
+				<div class="col-lg-3 col-12 service">
 					<div class="card">
 						<img class="card-img-top" src="img/services/4.png" alt="Картинка услуги">
 						<div class="card-body">
@@ -92,6 +92,84 @@
 						</div>
 					</div>
 				</div>
+				<div class="col-lg-3 col-12 service">
+					<div class="card">
+						<img class="card-img-top" src="img/services/1.png" alt="Картинка услуги">
+						<div class="card-body">
+							<p>Строительство коровников</p>
+							<button class="blueBtn">Подробнее</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-12 service">
+					<div class="card">
+						<img class="card-img-top" src="img/services/2.png" alt="Картинка услуги">
+						<div class="card-body">
+							<p>Строительство молочно-товарных ферм</p>
+							<button class="blueBtn">Подробнее</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-12 service">
+					<div class="card">
+						<img class="card-img-top" src="img/services/3.png" alt="Картинка услуги">
+						<div class="card-body">
+							<p>Реконструкция молочных ферм</p>
+							<a href="dairyFarmReconstructionPage.php">
+								<button class="blueBtn">Подробнее</button>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-12 service">
+					<div class="card">
+						<img class="card-img-top" src="img/services/4.png" alt="Картинка услуги">
+						<div class="card-body">
+							<p>Ремонт ферм</p>
+							<button class="blueBtn">Подробнее</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-12 service">
+					<div class="card">
+						<img class="card-img-top" src="img/services/1.png" alt="Картинка услуги">
+						<div class="card-body">
+							<p>Строительство коровников</p>
+							<button class="blueBtn">Подробнее</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-12 service">
+					<div class="card">
+						<img class="card-img-top" src="img/services/2.png" alt="Картинка услуги">
+						<div class="card-body">
+							<p>Строительство молочно-товарных ферм</p>
+							<button class="blueBtn">Подробнее1</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-12 service">
+					<div class="card">
+						<img class="card-img-top" src="img/services/3.png" alt="Картинка услуги">
+						<div class="card-body">
+							<p>Реконструкция молочных ферм</p>
+							<button class="blueBtn">Подробнее1</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-12 service">
+					<div class="card">
+						<img class="card-img-top" src="img/services/4.png" alt="Картинка услуги">
+						<div class="card-body">
+							<p>Ремонт ферм</p>
+							<button class="blueBtn">Подробнее1</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="data" class="row"></div>
+			<div class="row">
+				<div id="pager" class="pagination"></div>
 			</div>
 		</div>
 	</section>

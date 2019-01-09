@@ -2,7 +2,9 @@
 	<div class="container">
 		<div class="row align-items-center">
 			<div class="col-lg-auto">
-				<button class="redBtn"><a data-fancybox data-animation-duration="700" data-src="#getPriceModal" href="javascript:;">Запросить прайс<a></button>
+				<a data-fancybox data-animation-duration="700" data-src="#getPriceModal" href="javascript:;">
+					<button class="redBtn">Запросить прайс</button>
+				<a>
 			</div>
 			<div style="display: none;" id="getPriceModal" class="animated-modal">
 				<div class="card">
@@ -179,24 +181,82 @@
 ?>
 <nav class="d-none d-lg-block">
 	<div class="container">
-		<div class="row justify-content-between">
-			<div class="col-auto">
-				<a href="store.php">Интернет - магазин</a><img src="img/icons/bottom.png" class="pl-1">
+		<div class="row justify-content-between pages">
+			<div class="col-auto nav-store storeBtn">
+				<a href="store.php">Интернет - магазин</a><img src="img/icons/bottom.png" class="pl-1 bottomArrow"><img src="img/icons/topRed.png" class="pl-1 topArrow">
+				<ul class="nav-store-sections">
+					<li>Основной раздел 1<img src="img/icons/navLiArrow.png" class="navLiArrow">
+						<ul class="nav-store-sections-to-sections">
+							<li>Подраздел 1</li>
+							<li>Подраздел 2</li>
+							<li>Подраздел 3</li>
+						</ul>
+					</li>
+					<li>Основной раздел 2<img src="img/icons/navLiArrow.png" class="navLiArrow">
+						<ul class="nav-store-sections-to-sections">
+							<li>Подраздел 1</li>
+							<li>Подраздел 2</li>
+							<li>Подраздел 3</li>
+						</ul>
+					</li>
+					<li>Основной раздел 3<img src="img/icons/navLiArrow.png" class="navLiArrow">
+						<ul class="nav-store-sections-to-sections">
+							<li>Подраздел 1</li>
+							<li>Подраздел 2</li>
+							<li>Подраздел 3</li>
+						</ul>
+					</li>
+					<li>Основной раздел 4<img src="img/icons/navLiArrow.png" class="navLiArrow">
+						<ul class="nav-store-sections-to-sections">
+							<li>Подраздел 1</li>
+							<li>Подраздел 2</li>
+							<li>Подраздел 3</li>
+						</ul>
+					</li>
+					<li>Основной раздел 5<img src="img/icons/navLiArrow.png" class="navLiArrow">
+						<ul class="nav-store-sections-to-sections">
+							<li>Подраздел 1</li>
+							<li>Подраздел 2</li>
+							<li>Подраздел 3</li>
+						</ul>
+					</li>
+					<li>Основной раздел 6<img src="img/icons/navLiArrow.png" class="navLiArrow">
+						<ul class="nav-store-sections-to-sections">
+							<li>Подраздел 1</li>
+							<li>Подраздел 2</li>
+							<li>Подраздел 3</li>
+						</ul>
+					</li>
+					<li>Основной раздел 7<img src="img/icons/navLiArrow.png" class="navLiArrow">
+						<ul class="nav-store-sections-to-sections">
+							<li>Подраздел 1</li>
+							<li>Подраздел 2</li>
+							<li>Подраздел 3</li>
+						</ul>
+					</li>
+					<li>Основной раздел 8<img src="img/icons/navLiArrow.png" class="navLiArrow">
+						<ul class="nav-store-sections-to-sections">
+							<li>Подраздел 1</li>
+							<li>Подраздел 2</li>
+							<li>Подраздел 3</li>
+						</ul>
+					</li>
+				</ul>
 			</div>
 			<div class="col-auto">
-				<a href="index.php" class="active">Главная</a>
+				<a href="index.php" class="aboutCompanyA">Главная</a>
 			</div>
 			<div class="col-auto">
-				<a href="aboutCompanyPage.php">О компании</a>
+				<a href="aboutCompanyPage.php" class="aboutCompanyA">О компании</a>
 			</div>
 			<div class="col-auto">
-				<a href="servicesPage.php">Услуги</a>
+				<a href="servicesPage.php" class="aboutCompanyA">Услуги</a>
 			</div>
 			<div class="col-auto">
-				<a href="paymentAndDelivery.php">Оплата и доставка</a>
+				<a href="paymentAndDelivery.php" class="aboutCompanyA">Оплата и доставка</a>
 			</div>
 			<div class="col-auto">
-				<a href="contactsPage.php">Контакты</a>
+				<a href="contactsPage.php" class="aboutCompanyA">Контакты</a>
 			</div>
 		</div>
 	</div>
@@ -236,10 +296,10 @@
  						<a class="nav-link" href="contactsPage.php"><p>Контакты</p></a>
  					</li>
  					<li class="nav-item">
- 						<a class="nav-link" href="accountPage.php"><p>Личный кабинет</p></a>
+ 						<a class="nav-link" href="personalPage.php"><p>Личный кабинет</p></a>
  					</li>
  					<li class="nav-item">
- 						<a class="nav-link" href=".php"><p>Корзина</p></a>
+ 						<a class="nav-link" href="basketPage.php"><p>Корзина</p></a>
  					</li>
 		 		</ul>
 		 		<hr>
@@ -250,7 +310,9 @@
 			 		</div>
 			 		<div class="col-6 pl-0">
 			 			<p class="mailOverBtn">zavodmtm@mail.ru</p>
-			 			<button class="redBtn">Обратный звонок</button>
+			 			<a data-fancybox data-animation-duration="700" data-src="#callBackModal" href="javascript:;">
+			 				<button class="redBtn">Обратный звонок</button>
+			 			</a>
 			 		</div>
 			 	</div>
 		 	</div>

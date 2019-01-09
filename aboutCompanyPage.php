@@ -5,7 +5,7 @@
 	<?php
 		include('nav.php');
 	?>
-	<section>
+	<section class="aboutCompanySection">
 		<div class="container">
 			<div class="row">
 				<div class="col-12">

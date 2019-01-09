@@ -80,29 +80,35 @@
 				</div>
 			</div>
 			<div class="row advantageSlider">
-				<div class="col-lg-3">
+				<div class="col-lg-auto">
 					<div class="d-flex">
 						<img src="img/advantages/1.png" class="advImg1">
-						<p>Производство</p>
 					</div>
+					<p>Выпускаем более 1 тыс. наименований продукции</p>
 				</div>
-				<div class="col-lg-3">
+				<div class="col-lg-auto">
 					<div class="d-flex">
-						<img src="img/advantages/2.png" class="advImg2">
-						<p>Оснащение ферм</p>
+						<img src="img/advantages/2.png" class="advImg1">
 					</div>
+					<p>Изучаем и внедряем опыт передовых стран – лидеров в сегменте оборудования для животноводства</p>
 				</div>
-				<div class="col-lg-3">
+				<div class="col-lg-auto">
 					<div class="d-flex">
-						<img src="img/advantages/3.png" class="advImg3">
-						<p>Гарантийное и сервисное обслуживание</p>
+						<img src="img/advantages/3.png" class="advImg1">
 					</div>
+					<p>Осуществляем прямые поставки по заводским ценам</p>
 				</div>
-				<div class="col-lg-3">
+				<div class="col-lg-auto">
 					<div class="d-flex">
-						<img src="img/advantages/4.png" class="advImg4">
-						<p>Поставка комплектующих и запчастей</p>
+						<img src="img/advantages/4.png" class="advImg1">
 					</div>
+					<p>Сертифицированные сервисные инженеры, ежегодно стажирующиеся за рубежом</p>
+				</div>
+				<div class="col-lg-auto">
+					<div class="d-flex">
+						<img src="img/advantages/5.png" class="advImg1">
+					</div>
+					<p>Лидеры в  ПФО по производству и продаже оборудования для животных</p>
 				</div>
 			</div>
 		</div>

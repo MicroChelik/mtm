@@ -17,9 +17,15 @@
 							<input type="text" class="form-control" placeholder="Ваш город *">
 							<textarea class="form-control" rows="3" placeholder='Ваш комментарий *'></textarea>
 						</div>
-						<div class="col-lg-6 col-12 recaptcha-wrapper" id="contactsPageCaptcha">
-							<div class="g-recaptcha captcha" data-sitekey="6Ldo2nsUAAAAAHtVQzC6Wlif4QzFftZHGoaq0EK7"></div>
-							<p class="personalInformation">Нажимая на кнопку, вы даете свое согласие на обработку персональных данных.  <a href="">Узнать больше</a></p>
+						<div class="col-lg-6 col-12 ">
+							<div class="row">
+								<div class="col-6 recaptcha-wrapper">
+									<div class="g-recaptcha captcha" data-sitekey="6Ldo2nsUAAAAAHtVQzC6Wlif4QzFftZHGoaq0EK7" id="formSectionCaptcha"></div>
+								</div>
+								<div class="col-6">
+									<p class="personalInformation">Нажимая на кнопку, вы даете свое согласие на обработку персональных данных.  <a href="">Узнать больше</a></p>
+								</div>
+							</div>							
 						</div>
 						<div class="col-lg-6 col-12">
 							<button class="redBtn mx-auto" type="submit">Отправить</button>
