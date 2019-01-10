@@ -4,7 +4,7 @@
 			<div class="col-lg-auto">
 				<a data-fancybox data-animation-duration="700" data-src="#getPriceModal" href="javascript:;">
 					<button class="redBtn">Запросить прайс</button>
-				<a>
+				</a>
 			</div>
 			<div style="display: none;" id="getPriceModal" class="animated-modal">
 				<div class="card">
@@ -21,9 +21,14 @@
 								<div class="col-12 form-group">
 									<input type="number" class="form-control" name="phoneNumber" placeholder="Ваш номер телефона *" required>
 								</div>
-								<div class="col-lg-6 col-12 captchaDiv recaptcha-wrapper"><div class="g-recaptcha captcha" data-sitekey="6Ldo2nsUAAAAAHtVQzC6Wlif4QzFftZHGoaq0EK7"></div></div>						
 								<div class="col-lg-6 col-12">
-									<p class="personalInformation">Нажимая на кнопку, вы даете свое согласие на обработку<br class="d-none d-lg-block">персональных данных. <a href="" target="blank" rel="noopener noreferrer">Узнать больше</a></p>
+									<div class="g-recaptcha captcha" data-sitekey="6Ldo2nsUAAAAAHtVQzC6Wlif4QzFftZHGoaq0EK7"></div>
+								</div>						
+								<div class="col-lg-6 col-12">
+									<p class="personalInformation">Нажимая на кнопку, вы даете свое согласие на обработку
+										<br class="d-none d-lg-block">персональных данных. 
+										<a href="" target="blank" rel="noopener noreferrer">Узнать больше</a>
+									</p>
 								</div>
 								<div class="col-12 d-flex">
 									<button type="submit" class="redBtn mx-auto">Отправить</button>
@@ -67,7 +72,7 @@
 									</div>
 									<div class="col-lg-6 col-12 captchaDiv recaptcha-wrapper"><div class="g-recaptcha captcha" data-sitekey="6Ldo2nsUAAAAAHtVQzC6Wlif4QzFftZHGoaq0EK7"></div></div>						
 									<div class="col-lg-6 col-12">
-									<p class="personalInformation"><a data-fancybox data-animation-duration="700" data-src="#forgetPasswordModal" href="javascript:;" class="signInText">Забыли пароль ?</a></p>
+									<p class="personalInformation"><a data-fancybox data-animation-duration="700" data-src="#forgetPasswordModal" href="javascript:;" class="signInText forgotPassword">Забыли пароль ?</a></p>
 										<div style="display: none;" id="forgetPasswordModal" class="animated-modal">
 											<div class="card">
 												<div class="card-body">
@@ -183,7 +188,7 @@
 	<div class="container">
 		<div class="row justify-content-between pages">
 			<div class="col-auto nav-store storeBtn">
-				<a href="store.php">Интернет - магазин</a><img src="img/icons/bottom.png" class="pl-1 bottomArrow"><img src="img/icons/topRed.png" class="pl-1 topArrow">
+				<a href="store.php" class="storeLink">Интернет - магазин</a><span class="storeToggle"><img src="img/icons/bottom.png" class="pl-1 bottomArrow"><img src="img/icons/topRed.png" class="pl-1 topArrow"></span>
 				<ul class="nav-store-sections">
 					<li>Основной раздел 1<img src="img/icons/navLiArrow.png" class="navLiArrow">
 						<ul class="nav-store-sections-to-sections">
@@ -244,19 +249,19 @@
 				</ul>
 			</div>
 			<div class="col-auto">
-				<a href="index.php" class="aboutCompanyA">Главная</a>
+				<a href="index.php" class="mainLink">Главная</a>
 			</div>
 			<div class="col-auto">
-				<a href="aboutCompanyPage.php" class="aboutCompanyA">О компании</a>
+				<a href="aboutCompanyPage.php" class="aboutCompanyLink">О компании</a>
 			</div>
 			<div class="col-auto">
-				<a href="servicesPage.php" class="aboutCompanyA">Услуги</a>
+				<a href="servicesPage.php" class="servicesLink">Услуги</a>
 			</div>
 			<div class="col-auto">
-				<a href="paymentAndDelivery.php" class="aboutCompanyA">Оплата и доставка</a>
+				<a href="paymentAndDelivery.php" class="pdLink">Оплата и доставка</a>
 			</div>
 			<div class="col-auto">
-				<a href="contactsPage.php" class="aboutCompanyA">Контакты</a>
+				<a href="contactsPage.php" class="contactsLink">Контакты</a>
 			</div>
 		</div>
 	</div>
@@ -266,14 +271,26 @@
 		<div class="row justify-content-between align-items-center mobileNavRow">
 			<div class="col-2">
 				<button class="navbar-toggler d-lg-none d-inline-block" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-	   				<span class="navbar-toggler-icon" id="toggle"><img src="img/icons/burger.png"></span>
+	   				<span class="navbar-toggler-icon" id="toggle">
+	   					<div class="menuFive">
+						    <span></span>
+						    <span></span>
+						    <span></span>
+						</div>
+	   				</span>
 		  		</button>
 			</div>
-			<div class="col-auto">
+			<div class="col-10 serchInputDiv">
+				<input type="text" class="serchInput" placeholder="Поиск">
+				<a href="searchPage.php">
+					<img src="img/icons/mobileSearch.png" class="mobileSearch">
+				</a>			
+			</div>
+			<div class="col-auto mobileLogoDiv">
 				<img src="img/logos/mtmMobile.png">
 			</div>
-			<div class="col-2">
-				<img src="img/icons/loupeWhite.png">
+			<div class="col-2 searchIconDiv">
+				<img src="img/icons/loupeWhite.png" class="searchIcon">
 			</div>
 			<div class="collapse navbar-collapse" id="navbarNav">
 		 		<ul class="navbar-nav">

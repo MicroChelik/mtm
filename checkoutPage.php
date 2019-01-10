@@ -7,24 +7,36 @@
 	?>
 	<section>
 		<div class="container checkoutPageSection">
+			<div aria-label="breadcrumb" class="breadcrumbNav">
+				<div class="container px-0">
+					<ol class="breadcrumb pl-0">
+				    	<li class="breadcrumb-item"><a href="index.php">Главная</a></li>
+				    	<li class="breadcrumb-item"><a href="basketPage.php">Корзина</a></li> 
+			    		<li class="breadcrumb-item active" aria-current="page">Оформление заказа</li>
+				 	</ol>
+				</div>
+			</div>
 			<div class="row">
 				<div class="col-12">
+					<h2>Оформление заказа</h2>
+				</div>
+				<div class="col-12">
 					<div class="row productInBasketCheckout">
-						<div class="col-2 d-flex pl-0">
+						<div class="col-lg-2 col-12 d-flex pl-0">
 							<img src="img/basket/1.png" class="m-auto">
 						</div>
-						<div class="col-5">
+						<div class="col-lg-5 col-12">
 							<p class="product-name">Охладитель для молока открытого типа «Арктика»</p>
 							<p class="availability">Наличие в магазине - 20 шт</p>
 						</div>
-						<div class="col-auto offset-2 cardValueDiv">
+						<div class="col-lg-auto offset-lg-2 col-12 cardValueDiv">
 							<div class="d-flex cardValue">
 								<button class="inc">-</button>
 								<input type="text" value="1"/>
 								<button class="dec">+</button>
 							</div>
 						</div>
-						<div class="col-auto">
+						<div class="col-lg-auto col-12">
 							<p class="productPrice">15 990 ₽</p>
 						</div>
 						<img src="img/icons/closeGrey.png" class="closeImg">
@@ -79,26 +91,26 @@
 						<div class="col-12 title">
 							<p>Товары в заказе</p>
 						</div>
-						<div class="col-12 d-flex productInBasketCheckout productInBasketCheckoutLast p-0">
-							<div class="col-2 d-flex">
+						<div class="row d-flex productInBasketCheckout productInBasketCheckoutLast p-lg-0">
+							<div class="col-lg-2 col-12 d-flex">
 								<img src="img/basket/1.png" class="m-auto">
 							</div>
-							<div class="col-6">
+							<div class="col-lg-6 col-12">
 								<p class="product-name">Охладитель для молока открытого типа «Арктика»</p>
 							</div>
-							<div class="col-2">
+							<div class="col-lg-2 col-12">
 								<p class="availability">2 шт</p>
 							</div>
-							<div class="col-2">
+							<div class="col-lg-2 col-12">
 								<p class="product-name">15 990 ₽</p>
 							</div>
 						</div>
 					</div>
 					<div class="row justify-content-between">
-						<div class="col-2 pl-0">
-							<button class="greyBtn">Назад</button>
+						<div class="col-lg-2 col-6 pl-0">
+							<a href="basketPage.php"><button class="greyBtn">Назад</button></a>
 						</div>
-						<div class="col-3 pr-0">
+						<div class="col-lg-3 col-6 pr-0">
 							<button class="greyBtn">Оформить заказ</button>
 						</div>
 					</div>
@@ -146,6 +158,7 @@
 	<?php
 		include('footer.php');
 	?>
+	<script src="js/activeMain.js"></script>
 <?php
 	include('htmlEndBody.php');
 ?>

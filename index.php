@@ -342,6 +342,7 @@
 	<?php
 		include('footer.php');
 	?>
+	<script src="js/activeMain.js"></script>
 <?php
 	include('htmlEndBody.php');
 ?>

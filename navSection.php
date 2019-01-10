@@ -7,8 +7,9 @@
 				</a>
 			</div>
 			<div class="col-lg-5">
+				<input class="form-control" type="search" placeholder="Поиск">
 				<a href="searchPage.php">
-					<input class="form-control" type="search" placeholder="Поиск">
+					<img src="img/icons/deskSearch.png" class="deskSearchIcon">
 				</a>
 			</div>
 			<div class="col-lg-auto">

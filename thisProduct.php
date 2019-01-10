@@ -7,6 +7,16 @@
 	?>
 	<section class="thisProductSection">
 		<div class="container">
+			<div aria-label="breadcrumb" class="breadcrumbNav">
+				<div class="container px-0">
+					<ol class="breadcrumb pl-0">
+				    	<li class="breadcrumb-item"><a href="index.php">Главная</a></li>
+				    	<li class="breadcrumb-item"><a href="store.php">Основной раздел 1</a></li>
+				    	<li class="breadcrumb-item"><a href="store.php">Подраздел каталога 1</a></li>
+			    		<li class="breadcrumb-item active" aria-current="page">Танки-охладители молока закрытого типа «Арктика»</li>
+				 	</ol>
+				</div>
+			</div>
 			<div class="row">
 				<div class="col-12">
 					<h2>Танки-охладители молока закрытого типа «Арктика»</h2>
@@ -27,6 +37,14 @@
 						</div>
 						<div class="productsDiv">
 							<img src="img/products/2.png">
+						</div>
+					</div>
+					<div class="row justify-content-between productArrow d-lg-flex d-none">
+						<div class="col-auto arrow-leftDiv">
+							<img src="img/icons/bLeft.png" class="prev4" alt="назад">
+						</div>
+						<div class="col-auto arrow-rightDiv">
+							<img src="img/icons/bRight.png" class="next4" alt="вперед">
 						</div>
 					</div>
 				</div>
@@ -84,13 +102,13 @@
 				</div>
 			</div>
 			<div class="row descripton-row">
-				<div class="col-lg-3 product-description active">
+				<div class="col-lg-3 col-6 product-description active">
 					<p class="">Описание товара</p>
 				</div>
-				<div class="col-lg-3 product-specifications">
+				<div class="col-lg-3 col-6 product-specifications">
 					<p class="">Характеристики</p>
 				</div>
-				<div class="col-11 product-description-text">
+				<div class="col-lg-11 col-12 product-description-text">
 					<p>
 						На дне термоизолированного резервуара охладителей молока «Арктика 500», «Арктика 1000» и «Арктика 2000» располагаются источники холода — трубчатые испарители. Все охладители молока открытого типа «Арктика» снабжены французскими компрессорами "Maneurop", которые обеспечивают выработку от 12000 до 34000 килокалорий в час. За короткий промежуток времени молоко охлаждается от 36 до 4 градусов (быстрое охлаждение происходит за счет прямого контакта молока с трубчатыми охладителями), а автоматизированное перемешивание обеспечивает равномерное распределение температуры в резервуаре.охладители молока открытого типа
 					</p>
@@ -98,7 +116,7 @@
 						Охлаждающий агрегат оснащен автоматической приборной панелью и пусковым механизмом, фильтром, ресивером и компрессорно-конденсаторным устройством, с которым соединены охладители. На пульте управления постоянно отображается текущая температура молока в резервуаре; как только она поднимается выше допустимой отметки, автоматически включаются охладители, которые затем (при достижении необходимой температуры) переходят в режим ее поддержания.
 					</p>
 				</div>
-				<div class="col-11 product-specifications-text">
+				<div class="col-lg-11 col-12 product-specifications-text">
 					<div class="row align-items-center">
 						<div class="col-lg-5 product-specifications-text-red">
 							<p>Характеристика 1</p>
@@ -356,10 +374,10 @@
 			</div>
 		</div>
 	</section>
-
 	<?php
 		include('footer.php');
 	?>
+	<script src="js/activeStore.js"></script>
 <?php
 	include('htmlEndBody.php');
 ?>

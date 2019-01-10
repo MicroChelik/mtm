@@ -21,8 +21,13 @@
 					<h2>Персональный раздел</h2>
 				</div>
 				<div class="col-12">
-					<p>Текущие заказы не найдены</p>
-					<p><a href="ordersHistory.php">Просмотреть историю заказов</a></p>
+					<p>История заказов отсутствует</p>
+				</div>
+				<div class="col-lg-3 col-6">										
+					<p><a href="orderStatusPage.php">Просмотреть текущие заказы</a></p>
+				</div>
+				<div class="col-lg-5 col-6">
+					<p><a href="orderStatusPage.php">Просмотреть историю отмеченных заказов</a></p>
 				</div>
 				<div class="col-12 backToCatalog">
 					<p><a href="store.php">Перейти в каталог</a></p>

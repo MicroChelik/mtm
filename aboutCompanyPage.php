@@ -7,6 +7,14 @@
 	?>
 	<section class="aboutCompanySection">
 		<div class="container">
+			<div aria-label="breadcrumb" class="breadcrumbNav">
+				<div class="container px-0">
+					<ol class="breadcrumb pl-0">
+				    	<li class="breadcrumb-item"><a href="index.php">Главная</a></li>
+			    		<li class="breadcrumb-item active" aria-current="page">О компании</li>
+				 	</ol>
+				</div>
+			</div>
 			<div class="row">
 				<div class="col-12">
 					<h2>О компании</h2>
@@ -58,6 +66,7 @@
 			</div>
 		</div>
 	</section>
+	<script src="js/active.js"></script>
 	<?php
 		include('formSection.php')
 	?>

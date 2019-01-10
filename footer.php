@@ -65,7 +65,9 @@
 				</p>
 			</div>
 			<div class="col-lg-2">
-				<img src="img/logos/electronLogo.png">
+				<a href="https://xn--18-mlcudogpr0i.xn--p1ai/" target="blank">
+					<img src="img/logos/electronLogo.png">
+				</a>
 			</div>
 		</div>
 		<div class="row mobileFooter d-flex d-lg-none">
@@ -108,7 +110,9 @@
 				</p>
 			</div>
 			<div class="col-12">
-				<img src="img/logos/electronLogo.png">
+				<a href="https://xn--18-mlcudogpr0i.xn--p1ai/" target="blank">
+					<img src="img/logos/electronLogo.png">
+				</a>
 			</div>
 		</div>
 	</div>
